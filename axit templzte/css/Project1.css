@@ -301,8 +301,9 @@ box-sizing: border-box;
     text-align: center;
 
 }
-.fa-solid{
+.play{
     margin-top: 20%;
+    display: inline-block;
 }
 
 .listitem{
@@ -439,10 +440,11 @@ margin-top: 5%;
     margin-bottom: 8%;
 
 }
-.fas {
-    margin-top: 34%;
+.play1 {
+    margin-top: 30%;
     padding: 0px;
     font-size:x-large;
+    display: inline-block;
 }
 .crafted{
     display: inline-block;
@@ -715,7 +717,7 @@ margin-block-end: 0px;
     margin: 0px;
     box-sizing: border-box;
     width: 100%;
-    background-image: url("https://skylifeholidays.com/wp-content/uploads/2024/11/%D9%85%D8%B9%D8%A7%D9%84%D9%85-%D8%B3%D9%8A%D8%A7%D8%AD%D9%8A%D8%A9-%D9%85%D8%B4%D9%87%D9%88%D8%B1%D8%A9.webp");
+    background-image: url("https://darelhilal.com/media/upload/photo/news/13/3/600x338o/252.jpg" );
 }
 .overl{
     width: 100%;
