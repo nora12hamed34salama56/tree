@@ -1,0 +1,137 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+}
+.section1{
+    width: 100%;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+ .nav1{
+    width: 100%;
+    background-color: #F5F7FA;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 3% 3%;
+    
+    
+ }
+ .div1{
+    display: flex;
+margin-left: 3%;
+
+ }
+ .div1 img{
+    display: flex;
+    
+ }
+ .div1 h2{
+    display: flex;
+    
+ }
+ 
+ .ul1{
+    display: flex;
+    gap: 40px;
+   
+ }
+ .div2{
+    display: flex;
+    gap: 35px;
+    color: #4cAf4f;
+    margin-right: 3%;
+     
+ }
+ .div2 button{
+    color: white;
+    background-color:#4cAf4f ;
+    border-radius: 8px;
+    border: 1px solid #4cAf4f;
+    padding: 4px 8px;
+ }
+ .div3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #F5F7FA;
+    padding: 1.5% 3%;
+   
+ }
+ .div4{
+    width: 50%;
+    margin-right: 4%;
+     margin-left: 3%;
+ }
+ .div4 h2{
+     font-size: 39px;
+      color: #333;
+      margin-bottom: 18px;
+ }
+ .div4 h1{
+     color: #4cAf4f;
+     margin-bottom: 18px;
+     font-size: 39px;
+ }
+.div4 p {
+      color: #666;
+      margin-bottom: 20px;
+    }
+    .div4 button{
+        color: white;
+        background-color: #4cAf4f;
+        padding: 10px 25px;
+        border-radius: 5% ;
+        border: 1px solid #4cAf4f;
+        font-weight: bold;
+    }
+    .div5{
+        width: 38%;
+        padding: 2%;
+        margin-top: 3%;
+        margin-right: 8%;
+    }
+    .div5 img{
+        width: 100%;
+    }
+    .div6{
+        display: flex;
+        width: 100%;
+        background-color:  #F5F7FA;
+        padding: 1%;
+    }
+    .dot1{
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background-color: #4cAf4f;
+        margin-left: 47%;
+
+    }
+.dot2{
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background-color: #a0e7a0;
+        margin-left: 1%;
+        margin-right: 1%;
+        
+    }
+    .dot3{
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background-color: #a0e7a0;
+       
+    }
