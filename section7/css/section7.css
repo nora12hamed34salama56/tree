@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.section1{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.826);
+}
+
+.relativ{
+    width: 30%;
+    position: relative;
+    color: white;
+    border: 2px solid white;
+    background-color: black;
+    margin-left: 3%;
+    margin-top: 5%;
+    padding: 10% 0;
+    overflow: hidden;
+
+}
+a{
+    list-style: none;
+    color: white;
+    font-size: 30px;
+    margin-top: 5%;
+    margin-left: 35%;
+    padding: 2%;
+}
+h2{
+    margin-left: 25%;
+    padding: 3%;
+}
+.absluot{
+   position: absolute;
+    top: 101%;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    background: white;
+    color: black;
+     transition-duration: 1s;
+}
+.relativ:hover .absluot{
+    top: 0;
+
+}
+.absluot button{
+    background-color: blue;
+    color: white;
+    padding: 5%;
+    margin: 2% 10%;
+    font-size: 25px;
+    font-weight: 400;
+}
