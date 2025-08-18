@@ -1,0 +1,136 @@
+@media (max-width :391px){
+.text{
+    display: none;
+}
+.button{
+    display: none;
+}
+.hident{
+    display: block;
+}
+.section1{
+     background-size: 185% 100%;
+    background-position: left;
+}
+
+.icon{
+    width: 60%;
+    background-size: 185% 100%;
+    background-position: right;
+}
+.width-45 {
+    width: 80%;
+}
+.text1 h2 {
+    font-size: 28px;
+    margin-top: 40%;
+}
+.text1 p {
+    font-size: 14px;
+    margin-bottom: 15%;
+}
+.custom-icon2{
+    display: block;
+    margin-left: 30%;
+}
+.shear{
+    display:none;
+}
+.border{
+border: none;
+}
+.food {
+    margin-left: 3%;
+}
+.div3 {
+    display: none;
+}
+.card{
+    display: block;
+}
+.card-possion-relative1 {
+    width: 100%;
+    margin: auto;
+}
+.card-possion-relative2 {
+     width: 100%;
+    margin: auto;
+    margin-top: 4%;
+}
+ .card-possion-relative3{
+    display: none;
+ }
+ .button3{
+    margin-top: 20%;
+ }
+ .button4{
+    margin-top: 20%;
+ }
+ .h2{
+    font-size: 15px;
+ }
+ .shop h4{
+    font-size: 20px;
+ }
+ .father{
+    flex-wrap: wrap;
+ }
+ .img{
+    width: 100%;
+ }
+ .relative2 img{
+height: 190px;
+ }
+ .dog{
+    width: 100%;
+    height: 178px;
+    overflow: hidden;
+ }
+ .dog img{
+    line-height: 200px;
+ }
+.padding2 {
+    padding-left: 20%;
+    font-size: 40px;
+}
+ .absluot{
+    font-size: 20px;
+    left: 7%;
+ }
+ .absluot2 h2 {
+    font-size: 20px;
+    padding-top: 5%;
+ }
+     .margin-top {
+        margin-top: 2%;
+    }
+ .absluot2 p {
+    font-size: 12px;
+ }
+ .relative3{
+    display: none;
+ }
+  .text2{
+    width: 100%;
+    color: #667085;
+    font-size: 10px;
+  }
+ .section3{
+    display: block;
+ }
+ .part{
+    flex-wrap: wrap;
+ }
+ .card1{
+    width:calc(100% / 2 - 4% );
+ }
+ .height{
+    height:200px ;
+ }
+ .card-body{
+    text-align: center;
+ }
+ .section4{
+    display: none;
+ }
+}

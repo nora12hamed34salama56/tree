@@ -85,11 +85,17 @@ a{
    padding: 2% 2%;
    border:none;
    border-radius: 2%;
+   position: relative;
+ }
+ .custom-icon{
+  position: absolute;
+    top: 40%;
+    font-size: 15px;
  }
  .div3-1 input{
   width: 100%;
   border: none;
-  padding: 5%;
+  padding: 7%;
  }
  .div3-2 {
    width: 30%;

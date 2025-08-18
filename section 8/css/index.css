@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin:0 ;
+    box-sizing: border-box;
+}
+.road{
+background-image: url(https://static.vecteezy.com/system/resources/thumbnails/013/079/896/small/straight-road-travel-concept-illustration-png.png);
+background-size: (100% ,100%);
+}
+.width-20{
+    width: 100%;
+}
+.car{
+    width: 15%;
+    animation-name: chang;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+}
+@keyframes chang{
+from{
+
+}
+to{
+    transform: translateX(800%);
+}
+}
