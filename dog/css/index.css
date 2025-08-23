@@ -27,6 +27,9 @@
 .width-45{
     width: 35%;
 }
+.width-48{
+    width: 48%;
+}
 .width-25{
     width: 25%;
 }
@@ -143,8 +146,6 @@ padding:  0% 0% 1% 30%;
     border-radius:8px;
     text-align: center;
     font-size: 15px;
- }
- .border-top{
  }
  .margin{
     margin-bottom: 2%;
@@ -454,14 +455,6 @@ margin-top: 3%;
   gap: 10px;
 }
 
-.checkbox {
-width: 100%;
-color: gray;
-}
-.privacy{
-    width: 2%;
-    font-size: 3px;
-}
 .hr1{
     background-color: #3b404a;
 }
