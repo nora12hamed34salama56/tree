@@ -1,0 +1,172 @@
+.input-group{
+    width: 400px;
+   color: gray;
+}
+.form{
+    width: 100px;
+    
+}
+ .hover i:hover{
+color: #dc3545;
+ }
+ .text a:hover {
+    color: #dc3545 !important;
+    border-color: #dc3545 !important;
+     animation-name: changeborderColor;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite ;
+    animation-direction: reverse;
+    
+ }
+@keyframes changeBgColor {
+     from{
+        
+    }
+    to{
+        transform: translate(400px);
+        border-color: #dc3545;
+    } 
+  }
+
+ .danger{
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+ }
+ .email{
+  background-color:inherit ;
+ }
+ .email::placeholder{
+    
+    color: #999999 !important;
+    
+  }
+.text a:hover{
+   color: #dc3545;
+}
+.hover span:hover{
+    color: #dc3545;
+}
+.button:hover{
+    background-color: #dc3545 !important;
+}
+.card img:hover{
+    filter: grayscale(0.5);
+    
+}
+.nora li:hover{
+    color: #dc3545;
+}
+.hamed:hover{
+    color: #dc3545 !important;
+}
+.button1:hover{
+    color: #dc3545 !important ;
+} 
+.button1:hover span{
+  color: #dc3545 !important;
+} 
+.button-2 button:hover  {
+  background-color:white !important;
+  border: 2px solid black !important; 
+       
+}
+.color-box {
+      width: 20px;
+      height: 20px;
+      border-radius: 3px;
+      display: inline-block;
+      margin-right: 8px;
+      border: 1px solid #ccc;
+    }
+    .color-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 4px 0;
+    }
+    .color-item:hover span {
+  color: #dc3545; 
+}
+    .brand{
+        height: 200px;
+         overflow-y: scroll;  
+    } 
+     .filter-section {
+      max-width: 300px;
+    }
+    .form-check-label {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
+    .form-check-input:checked {
+      background-color: black;
+      border-color: black;
+    }
+    .price-red .form-check-input:hover + .form-check-label {
+     color: #dc3545;
+    }
+    .btn-black {
+      background-color: black;
+      color: white;
+      border-radius: 6px;
+    }
+    .btn-black:hover {
+      background-color: #333;
+      color: white;
+    }
+    .search-box {
+      position: relative;
+    }
+    .search-box input {
+      padding-right: 30px;
+    }
+    .search-box i {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #666;
+    }
+    .form-check-label {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
+    .form-check-input:checked {
+      background-color: black;
+      border-color: black;
+    }
+     .form-check-label-1:hover span{
+        color: #dc3545;
+        
+    }
+    .nav {
+    
+     --bs-nav-link-padding-y: 0rem;
+    }
+    .card-text:hover{
+      color: #dc3545;
+    }
+   .card-1:hover .heard{
+    display: block !important;
+    display: flex !important;
+    flex-direction: column !important;
+   }
+   .card-1:hover{
+     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+     border-radius: 10px !important;
+    
+   }
+   .card-1 img:hover{
+    filter: grayscale(0);
+   }
+   .margin{
+    margin-left: 400px !important;
+    margin-bottom: 50px !important;
+    margin-top: 50px !important;
+   }  
+  
