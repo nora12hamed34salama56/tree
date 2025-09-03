@@ -168,5 +168,31 @@ color: #dc3545;
     margin-left: 400px !important;
     margin-bottom: 50px !important;
     margin-top: 50px !important;
-   }  
+   } 
+   .owl-nav{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+   display: none;
+    
+   } 
+     .owl-carousel:hover .owl-nav {
+     display: flex;
+    justify-content: space-between;
+     }
+     .owl-prev i:hover{
+      background-color:black !important;
+      color: white !important;
+     }
+      .owl-next i:hover{
+      background-color: black !important;
+      color: white !important;
+     }
+     .hight{
+      height: 550px;
+     }
+     .width{
+      width: 18rem;
+     }
   

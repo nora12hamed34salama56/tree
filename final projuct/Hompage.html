@@ -1,188 +1,526 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/index.css">
-  </head>
-  <body>
-    
-<nav class="navbar navbar-expand-lg bg-white sticky-top aline-items-center">
-  <div class="container-fluid mt-3 me-5 ms-5 mb-3">
-    <a class="navbar-brand" href="#">
-        <img src="image/logo (2).png"  width="160" height="60">
-    </a>
-    <div class="collapse navbar-collapse ms-3 text" id="navbarNav">
-      <a>
-    <a class="navbar-brand ms-5  text--dark.bg-gradient hover" href="#">
-    <i class="fa-solid fa-phone  d-inline-block align-text-top fs-1 "></i>
-    </a>
-    <a class="navbar-brand  text--dark.bg-gradient hover" href="#"> Contact Us 24/7<br>   (+92) 3942 7879 </a>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-white sticky-top aline-items-center">
+    <div class="container-fluid mt-3 me-5 ms-5 mb-3">
+      <a class="navbar-brand" href="#">
+        <img src="image/logo (2).png" width="160" height="60">
       </a>
-  </div>
-      <div class="input-group me-5 pe-5 " >
-  
+      <div class="collapse navbar-collapse ms-3 text" id="navbarNav">
+        <a>
+          <a class="navbar-brand ms-5  text--dark.bg-gradient hover" href="#">
+            <i class="fa-solid fa-phone  d-inline-block align-text-top fs-1 "></i>
+          </a>
+          <a class="navbar-brand  text--dark.bg-gradient hover" href="#"> Contact Us 24/7<br> (+92) 3942 7879 </a>
+        </a>
+      </div>
+      <div class="input-group me-5 pe-5 ">
 
-<select class="form-select w-45 bg-secondary-subtle fw-bold fs-5 p-2" aria-label="Default select example">
-  <option selected>BB Creams</option>
-  <option value="1">All Categories</option>
-  <option value="2">Autopart</option>
-  <option value="3">Accessories</option>
-  <option value="4">Car Care</option>
-  <option value="5">Car Electronics</option>
-  <option value="6">Equipment</option>
-  <option value="7">Lights</option>
-  <option value="8">Oils & Fluids</option>
-  <option value="9">Tires</option>
-  <option value="10">Wheels</option>
-  <option value="11">Beauty & Health</option>
-  <option value="12">Bags & Cases</option>
-  <option value="13">BB Creams</option>
-  <option value="14">Body & Bath</option>
-  <option value="15">Brushes & Tools</option>
-  <option value="16">Hair Care</option>
-  <option value="17">Lipstick</option>
-  <option value="18">Makeup</option>
-  <option value="19">Makeup Palettes</option>
-  <option value="20">Mascara</option>
-  <option value="21">Mask</option>
-  <option value="22">Nail Care</option>
-  <option value="23">Skincare</option>
-  <option value="24 ">Toner</option>
-    <option value="25 ">Electronic</option>
-      <option value="26 ">Apple</option>
-        <option value="27 ">Camera</option>
+
+        <select class="form-select w-45 bg-secondary-subtle fw-bold fs-5 p-2" aria-label="Default select example">
+          <option selected>BB Creams</option>
+          <option value="1">All Categories</option>
+          <option value="2">Autopart</option>
+          <option value="3">Accessories</option>
+          <option value="4">Car Care</option>
+          <option value="5">Car Electronics</option>
+          <option value="6">Equipment</option>
+          <option value="7">Lights</option>
+          <option value="8">Oils & Fluids</option>
+          <option value="9">Tires</option>
+          <option value="10">Wheels</option>
+          <option value="11">Beauty & Health</option>
+          <option value="12">Bags & Cases</option>
+          <option value="13">BB Creams</option>
+          <option value="14">Body & Bath</option>
+          <option value="15">Brushes & Tools</option>
+          <option value="16">Hair Care</option>
+          <option value="17">Lipstick</option>
+          <option value="18">Makeup</option>
+          <option value="19">Makeup Palettes</option>
+          <option value="20">Mascara</option>
+          <option value="21">Mask</option>
+          <option value="22">Nail Care</option>
+          <option value="23">Skincare</option>
+          <option value="24 ">Toner</option>
+          <option value="25 ">Electronic</option>
+          <option value="26 ">Apple</option>
+          <option value="27 ">Camera</option>
           <option value="28 ">Conttroller</option>
-            <option value="29 ">Headphones</option>
-              <option value="30 ">Smartwatch</option>
-                <option value="31 ">Speaker</option>
-                  <option value="32 ">Fashion</option>
-                    <option value="33 ">Men</option>
-                      <option value="34 ">Accessories</option>
-                        <option value="35 ">Hoodies</option>
-             <option value="36 ">Jackets & Coats</option>
-               <option value="37 ">Polo Shirts</option>
-                 <option value="38 ">Shirts</option>
-                   <option value="39 ">Shoes</option>
-                     <option value="40 ">Women</option>
-                       <option value="41 ">Accessories</option>
-                         <option value="42 ">Dress</option>
-                           <option value="43 ">Shirts</option>             
+          <option value="29 ">Headphones</option>
+          <option value="30 ">Smartwatch</option>
+          <option value="31 ">Speaker</option>
+          <option value="32 ">Fashion</option>
+          <option value="33 ">Men</option>
+          <option value="34 ">Accessories</option>
+          <option value="35 ">Hoodies</option>
+          <option value="36 ">Jackets & Coats</option>
+          <option value="37 ">Polo Shirts</option>
+          <option value="38 ">Shirts</option>
+          <option value="39 ">Shoes</option>
+          <option value="40 ">Women</option>
+          <option value="41 ">Accessories</option>
+          <option value="42 ">Dress</option>
+          <option value="43 ">Shirts</option>
 
-</select>
-<button class="btn btn-outline-secondary bg-secondary-subtle border-top-0 border-bottom-0 p-2" type="button" id="button-addon1">Search for product</button>
-<button class="btn btn-outline-secondary w-10  bg-black p-2" type="button" data-bs-toggle="dropdown" aria-expanded="false" ><i class="fa-solid fa-magnifying-glass  text-white"></i> </button>
+        </select>
+        <button class="btn btn-outline-secondary bg-secondary-subtle border-top-0 border-bottom-0 p-2" type="button"
+          id="button-addon1">Search for product</button>
+        <button class="btn btn-outline-secondary w-10  bg-black p-2" type="button" data-bs-toggle="dropdown"
+          aria-expanded="false"><i class="fa-solid fa-magnifying-glass  text-white"></i> </button>
 
 
-</div>
-<ul class="navbar-nav me-auto ms-3 ps-5">
+      </div>
+      <ul class="navbar-nav me-auto ms-3 ps-5">
 
-<li class="nav-item dropdown text">
+        <li class="nav-item dropdown text">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             <img src="image/english.png"> English
           </a>
           <ul class="dropdown-menu mt-5  ">
             <li><a class="dropdown-item" href="#"><img src="image/espanol.png"> Espanol</a></li>
             <li><a class="dropdown-item" href="#"><img src="image/francais.png"> Francais</a></li>
-<li><a class="dropdown-item" href="#"><img src="image/portugues.png"> portugues</a></li>
-                        
+            <li><a class="dropdown-item" href="#"><img src="image/portugues.png"> portugues</a></li>
+
           </ul>
         </li>
 
-</ul>
-<ul class="navbar-nav me-auto  ms-3">
+      </ul>
+      <ul class="navbar-nav me-auto  ms-3">
 
-<li class="nav-item dropdown text">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">USD </a>
+        <li class="nav-item dropdown text">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">USD
+          </a>
           <ul class="dropdown-menu mt-5 ">
             <li><a class="dropdown-item" href="#">AUR</a></li>
             <li><a class="dropdown-item" href="#">BRL</a></li>
-                        
+
           </ul>
         </li>
 
-</ul>
-<a href="#" class="text-decoration-none text-black ms-3 hover"><i class="fa-regular fa-user"></i> <span class="ps-2">Account</span></a>
-<a href=""   class=" position-relative text-decoration-none text-black fs-4 ms-3 hover  ">
-  <i class="fa-regular fa-heart"></i><span class="position-absolute top-0 start-100 translate-middle badge rounded-circle  text-bg-danger fs-6 danger">0 <span class="visually-hidden">unread messages</span></span>
-</a>
-<a class=" position-relative text-decoration-none text-black fs-4 ms-3 hover">
-  <i class="fa-solid fa-cart-shopping"></i><span class="position-absolute top-0 start-100 translate-middle badge rounded-circle  text-bg-danger fs-6 danger ">0 <span class="visually-hidden">unread messages</span></span>
-</a>
-  </div>
+      </ul>
+      <a href="#" class="text-decoration-none text-black ms-3 hover"><i class="fa-regular fa-user"></i> <span
+          class="ps-2">Account</span></a>
+      <a href="" class=" position-relative text-decoration-none text-black fs-4 ms-3 hover  ">
+        <i class="fa-regular fa-heart"></i><span
+          class="position-absolute top-0 start-100 translate-middle badge rounded-circle  text-bg-danger fs-6 danger">0
+          <span class="visually-hidden">unread messages</span></span>
+      </a>
+      <a class=" position-relative text-decoration-none text-black fs-4 ms-3 hover">
+        <i class="fa-solid fa-cart-shopping"></i><span
+          class="position-absolute top-0 start-100 translate-middle badge rounded-circle  text-bg-danger fs-6 danger ">0
+          <span class="visually-hidden">unread messages</span></span>
+      </a>
     </div>
-</nav>
-<nav class="navbar bg-white mb-5 fs-6  border border-secondary-1 align-items-center border-start-0 border-end-0 ">
+    </div>
+  </nav>
+  <nav class="navbar bg-white fs-6  border border-secondary-1 align-items-center border-start-0 border-end-0 ">
     <div class="container-fluid ">
-    <div class="offcanvas offcanvas-start " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-      <div class="offcanvas-header bg-black">
-        <h5 class="offcanvas-title  text-white w-100  " id="offcanvasNavbarLabel"><span><i class="fa-solid fa-align-justify"></i></span>   SHOP BY CATEGORIES</h5>
-        
+      <div class="offcanvas offcanvas-start " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header bg-black">
+          <h5 class="offcanvas-title  text-white w-100  " id="offcanvasNavbarLabel"><span><i
+                class="fa-solid fa-align-justify"></i></span> SHOP BY CATEGORIES</h5>
+
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active fs-5 text-black" aria-current="page" href="#"><span class="me-2"><img
+                    src="image/icon-menu-1.png" alt=""></span> Fashion </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 text-black" href="#"><span class="me-2"><img src="image/icon-menu-2.png"
+                    alt=""></span> Phone & Tablet </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 text-black" href="#"><span class="me-2"><img src="image/icon-menu-3.png"
+                    alt=""></span> Laptop & Computer </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 text-black" href="#"><span class="me-2"><img src="image/icon-menu-4.png"
+                    alt=""></span> Tv, Audio-Video </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 text-black" href="#"><span class="me-2"><img src="image/icon-menu-5.png"
+                    alt=""></span> Camera & Photo </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 text-black" href="#"><span class="me-2"><img src="image/icon-menu-6.png"
+                    alt=""></span> Home & Decor </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 text-black" href="#"><span class="me-2"><img src="image/icon-menu-7.png"
+                    alt=""></span> Beauty & Health </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 text-black" href="#"><span class="me-2"><img src="image/icon-menu-8.png"
+                    alt=""></span> Game Accessories </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 text-black" href="#"><span class="me-2"><img src="image/icon-menu-9.png"
+                    alt=""></span> Autopart </a>
+            </li>
+
+          </ul>
+
+        </div>
       </div>
-      <div class="offcanvas-body">
-        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-          <li class="nav-item">
-            <a class="nav-link active fs-5 text-black" aria-current="page" href="#"><span class="me-2"><img src="image/icon-menu-1.png" alt=""></span>  Fashion </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fs-5 text-black" href="#"><span class="me-2"><img src="image/icon-menu-2.png" alt=""></span>  Phone & Tablet </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fs-5 text-black" href="#"><span class="me-2"><img src="image/icon-menu-3.png" alt=""></span>  Laptop & Computer </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fs-5 text-black" href="#"><span class="me-2"><img src="image/icon-menu-4.png" alt=""></span>  Tv, Audio-Video </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fs-5 text-black" href="#"><span class="me-2"><img src="image/icon-menu-5.png" alt=""></span>  Camera & Photo </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fs-5 text-black" href="#"><span class="me-2"><img src="image/icon-menu-6.png" alt=""></span>  Home & Decor </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fs-5 text-black" href="#"><span class="me-2"><img src="image/icon-menu-7.png" alt=""></span>  Beauty & Health </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fs-5 text-black" href="#"><span class="me-2"><img src="image/icon-menu-8.png" alt=""></span> Game Accessories </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link fs-5 text-black" href="#"><span class="me-2"><img src="image/icon-menu-9.png" alt=""></span>  Autopart </a>
-          </li>
-         
-        </ul>
-        
+      <div class="border-end border-2 border-secondery h-100">
+        <button class="navbar-toggler border-0 text-black  fs-6 ms-5 fw-bold button1" type="button"
+          data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon me-2 fw-bold"></span>SHOP BY CATEGORIES
+        </button>
       </div>
-    </div>
-    <div class="border-end border-2 border-secondery h-100">
-    <button class="navbar-toggler border-0 text-black  fs-6 ms-5 fw-bold button1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-     <span class="navbar-toggler-icon me-2 fw-bold"></span>SHOP BY CATEGORIES
-    </button>
-    </div>
-        <a class="navbar-brand fs-6 fw-bold hover hamed" href="file:///C:/Users/Dr.Hamed%20Salama/Desktop/nora-web-design-tasks/final%20projuct/Hompage.html">Homepages <span><i class="fa-solid fa-angle-down"></i></span>  </a>
-        <a class="navbar-brand fs-6 fw-bold text-black hamed" href="file:///C:/Users/Dr.Hamed%20Salama/Desktop/nora-web-design-tasks/final%20projuct/Categories.html">Categories <span><i class="fa-solid fa-angle-down"></i></span></a>
-       <ul class="tex-center list-unstyled fs-6 fw-bold">
+      <a class="navbar-brand fs-6 fw-bold hover hamed"
+        href="file:///C:/Users/Dr.Hamed%20Salama/Desktop/nora-web-design-tasks/final%20projuct/Hompage.html">Homepages
+        <span><i class="fa-solid fa-angle-down"></i></span> </a>
+      <a class="navbar-brand fs-6 fw-bold text-black hamed"
+        href="file:///C:/Users/Dr.Hamed%20Salama/Desktop/nora-web-design-tasks/final%20projuct/Categories.html">Categories
+        <span><i class="fa-solid fa-angle-down"></i></span></a>
+      <ul class="tex-center list-unstyled fs-6 fw-bold">
         <li class="nav-item dropdown mt-3">
-          <a class="nav-link dropdown-toggle hamed" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle hamed" href="#" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
             Products
           </a>
           <ul class="dropdown-menu list-unstyled fs-5">
             <li><a class="dropdown-item" href="#">Action</a></li>
             <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
-        </ul>
-        <a class="navbar-brand fs-6 fw-bold hover hamed" href="file:///C:/Users/Dr.Hamed%20Salama/Desktop/nora-web-design-tasks/final%20projuct/Pages.html">Pages <span><i class="fa-solid fa-angle-down"></i></span></a>
-        <a class="navbar-brand fs-6 fw-bold hover hamed" href="file:///C:/Users/Dr.Hamed%20Salama/Desktop/nora-web-design-tasks/final%20projuct/About.html">About us </a>
-        <a class="navbar-brand fs-6 fw-bold hover hamed" href="#">Blog</a>
-        <a class="navbar-brand fs-6 fw-bold hover hamed" href="#"><span><i class="fa-solid fa-ticket"></i></span>  Best Discount</a>
-        <a class="navbar-brand fs-6 fw-bold ms-5 hover hamed" href="#">Recently Viewwd <span><i class="fa-solid fa-angle-down"></i></span></a>
+      </ul>
+      <a class="navbar-brand fs-6 fw-bold hover hamed"
+        href="file:///C:/Users/Dr.Hamed%20Salama/Desktop/nora-web-design-tasks/final%20projuct/Pages.html">Pages
+        <span><i class="fa-solid fa-angle-down"></i></span></a>
+      <a class="navbar-brand fs-6 fw-bold hover hamed"
+        href="file:///C:/Users/Dr.Hamed%20Salama/Desktop/nora-web-design-tasks/final%20projuct/About.html">About us </a>
+      <a class="navbar-brand fs-6 fw-bold hover hamed" href="#">Blog</a>
+      <a class="navbar-brand fs-6 fw-bold hover hamed" href="#"><span><i class="fa-solid fa-ticket"></i></span> Best
+        Discount</a>
+      <a class="navbar-brand fs-6 fw-bold ms-5 hover hamed" href="#">Recently Viewwd <span><i
+            class="fa-solid fa-angle-down"></i></span></a>
 
     </div>
-</nav>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  </body>
+  </nav>
+  <div class="row">
+    <div class="col-8">
+
+
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="image/slide1-demo1.jpg" class="d-block w-100 hight" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="image/slide2-demo1.jpg" class="d-block w-100 hight" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <img src="image/slide3-demo1.png" class="d-block w-100 hight" alt="..." style="background-color: brown;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    </div>
+    <div class="container">
+      <div class="owl-carousel mt-5">
+        <div>
+          <div class="card  rounded-0 position-relative card-1" >
+            <img src="image/fashion-5-300x300.jpg" class="card-img-top" alt="...">
+            <p class="position-absolute text-white fw-bold start-0 top-0 ms-3 mt-3 rounded-1"
+              style="background-color: orangered; padding: 5px 10px;">HOT</p>
+            <div class="position-absolute top-0 end-0 me-3 mt-5 d-flex  flex-column d-none heard">
+              <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  " data-bs-toggle="tooltip"
+                data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
+                  class="fa-regular fa-heart text-black "></i></a>
+              <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
+                data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
+                  class="fa-solid fa-left-right text-black "></i></a>
+              <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
+                data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
+                  class="fa-solid fa-magnifying-glass text-black "></i></a>
+              <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
+                data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
+                  class="fa-solid fa-cart-shopping text-black "></i></a>
+            </div>
+            <div class="card-body">
+              <p class="card-text    h6 ">Nike Air Max Unisex SYSTM Men Sneaker Shoes</p>
+              <h4>$ 148</h4>
+            </div>
+          </div>
+        </div>
+        <div ><div class="card  rounded-0 position-relative card-1" >
+  <img src="image/electronic-30-5-300x300.jpg" class="card-img-top" alt="...">
+  <div class="position-absolute top-0 end-0 me-3 mt-5 d-flex  flex-column d-none heard">
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-regular fa-heart text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-left-right text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-magnifying-glass text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-cart-shopping text-black "></i></a>
+  </div>
+  <div class="card-body">
+    <p class="card-text h6">Apple MacBook Air With Apple M1 Chip,13.3 inch,8GB RAM,...</p>
+    <h4>$572</h4>
+  </div>
+</div>
+      </div>
+      <div ><div class="card rounded-0 position-relative card-1" >
+        <img src="image/fashion-5-300x300.jpg" class="card-img-top" alt="...">
+        <p class="position-absolute text-white fw-bold start-0 top-0 ms-3 mt-3 rounded-1"
+          style="background-color: orangered; padding: 5px 10px;">HOT</p>
+        <div class="position-absolute top-0 end-0 me-3 mt-5 d-flex  flex-column d-none heard">
+          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  " data-bs-toggle="tooltip"
+            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
+              class="fa-regular fa-heart text-black "></i></a>
+          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
+            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
+              class="fa-solid fa-left-right text-black "></i></a>
+          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
+            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
+              class="fa-solid fa-magnifying-glass text-black "></i></a>
+          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
+            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
+              class="fa-solid fa-cart-shopping text-black "></i></a>
+        </div>
+        <div class="card-body">
+          <p class="card-text    h6 ">Nike Air Max Unisex SYSTM Men Sneaker Shoes</p>
+          <h4>$ 148</h4>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="card  rounded-0 position-relative card-1" >
+        <img src="image/fashion-5-300x300.jpg" class="card-img-top" alt="...">
+        <p class="position-absolute text-white fw-bold start-0 top-0 ms-3 mt-3 rounded-1"
+          style="background-color: orangered; padding: 5px 10px;">HOT</p>
+        <div class="position-absolute top-0 end-0 me-3 mt-5 d-flex  flex-column d-none heard">
+          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  " data-bs-toggle="tooltip"
+            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
+              class="fa-regular fa-heart text-black "></i></a>
+          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
+            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
+              class="fa-solid fa-left-right text-black "></i></a>
+          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
+            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
+              class="fa-solid fa-magnifying-glass text-black "></i></a>
+          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
+            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
+              class="fa-solid fa-cart-shopping text-black "></i></a>
+        </div>
+        <div class="card-body">
+          <p class="card-text    h6 ">Nike Air Max Unisex SYSTM Men Sneaker Shoes</p>
+          <h4>$ 148</h4>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="card  rounded-0 position-relative card-1" >
+        <img src="image/fashion-5-300x300.jpg" class="card-img-top" alt="...">
+        <p class="position-absolute text-white fw-bold start-0 top-0 ms-3 mt-3 rounded-1"
+          style="background-color: orangered; padding: 5px 10px;">HOT</p>
+        <div class="position-absolute top-0 end-0 me-3 mt-5 d-flex  flex-column d-none heard">
+          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  " data-bs-toggle="tooltip"
+            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
+              class="fa-regular fa-heart text-black "></i></a>
+          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
+            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
+              class="fa-solid fa-left-right text-black "></i></a>
+          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
+            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
+              class="fa-solid fa-magnifying-glass text-black "></i></a>
+          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
+            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
+              class="fa-solid fa-cart-shopping text-black "></i></a>
+        </div>
+        <div class="card-body">
+          <p class="card-text    h6 ">Nike Air Max Unisex SYSTM Men Sneaker Shoes</p>
+          <h4>$ 148</h4>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="card  rounded-0 position-relative card-1" >
+        <img src="image/fashion-5-300x300.jpg" class="card-img-top" alt="...">
+        <p class="position-absolute text-white fw-bold start-0 top-0 ms-3 mt-3 rounded-1"
+          style="background-color: orangered; padding: 5px 10px;">HOT</p>
+        <div class="position-absolute top-0 end-0 me-3 mt-5 d-flex  flex-column d-none heard">
+          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  " data-bs-toggle="tooltip"
+            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
+              class="fa-regular fa-heart text-black "></i></a>
+          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
+            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
+              class="fa-solid fa-left-right text-black "></i></a>
+          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
+            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
+              class="fa-solid fa-magnifying-glass text-black "></i></a>
+          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
+            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
+              class="fa-solid fa-cart-shopping text-black "></i></a>
+        </div>
+        <div class="card-body">
+          <p class="card-text    h6 ">Nike Air Max Unisex SYSTM Men Sneaker Shoes</p>
+          <h4>$ 148</h4>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="card  rounded-0 position-relative card-1" >
+        <img src="image/fashion-5-300x300.jpg" class="card-img-top" alt="...">
+        <p class="position-absolute text-white fw-bold start-0 top-0 ms-3 mt-3 rounded-1"
+          style="background-color: orangered; padding: 5px 10px;">HOT</p>
+        <div class="position-absolute top-0 end-0 me-3 mt-5 d-flex  flex-column d-none heard">
+          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  " data-bs-toggle="tooltip"
+            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
+              class="fa-regular fa-heart text-black "></i></a>
+          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
+            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
+              class="fa-solid fa-left-right text-black "></i></a>
+          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
+            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
+              class="fa-solid fa-magnifying-glass text-black "></i></a>
+          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
+            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
+              class="fa-solid fa-cart-shopping text-black "></i></a>
+        </div>
+        <div class="card-body">
+          <p class="card-text    h6 ">Nike Air Max Unisex SYSTM Men Sneaker Shoes</p>
+          <h4>$ 148</h4>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="card  rounded-0 position-relative card-1 width" >
+        <img src="image/fashion-5-300x300.jpg" class="card-img-top" alt="...">
+        <p class="position-absolute text-white fw-bold start-0 top-0 ms-3 mt-3 rounded-1"
+          style="background-color: orangered; padding: 5px 10px;">HOT</p>
+        <div class="position-absolute top-0 end-0 me-3 mt-5 d-flex  flex-column d-none heard">
+          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  " data-bs-toggle="tooltip"
+            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
+              class="fa-regular fa-heart text-black "></i></a>
+          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
+            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
+              class="fa-solid fa-left-right text-black "></i></a>
+          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
+            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
+              class="fa-solid fa-magnifying-glass text-black "></i></a>
+          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
+            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
+              class="fa-solid fa-cart-shopping text-black "></i></a>
+        </div>
+        <div class="card-body">
+          <p class="card-text    h6 ">Nike Air Max Unisex SYSTM Men Sneaker Shoes</p>
+          <h4>$ 148</h4>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="card  rounded-0 position-relative card-1" >
+        <img src="image/fashion-5-300x300.jpg" class="card-img-top" alt="...">
+        <p class="position-absolute text-white fw-bold start-0 top-0 ms-3 mt-3 rounded-1"
+          style="background-color: orangered; padding: 5px 10px;">HOT</p>
+        <div class="position-absolute top-0 end-0 me-3 mt-5 d-flex  flex-column d-none heard">
+          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  " data-bs-toggle="tooltip"
+            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
+              class="fa-regular fa-heart text-black "></i></a>
+          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
+            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
+              class="fa-solid fa-left-right text-black "></i></a>
+          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
+            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
+              class="fa-solid fa-magnifying-glass text-black "></i></a>
+          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
+            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
+              class="fa-solid fa-cart-shopping text-black "></i></a>
+        </div>
+        <div class="card-body">
+          <p class="card-text    h6 ">Nike Air Max Unisex SYSTM Men Sneaker Shoes</p>
+          <h4>$ 148</h4>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="card  rounded-0 position-relative card-1" >
+        <img src="image/fashion-5-300x300.jpg" class="card-img-top" alt="...">
+        <p class="position-absolute text-white fw-bold start-0 top-0 ms-3 mt-3 rounded-1"
+          style="background-color: orangered; padding: 5px 10px;">HOT</p>
+        <div class="position-absolute top-0 end-0 me-3 mt-5 d-flex  flex-column d-none heard">
+          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  " data-bs-toggle="tooltip"
+            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
+              class="fa-regular fa-heart text-black "></i></a>
+          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
+            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
+              class="fa-solid fa-left-right text-black "></i></a>
+          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
+            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
+              class="fa-solid fa-magnifying-glass text-black "></i></a>
+          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
+            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
+              class="fa-solid fa-cart-shopping text-black "></i></a>
+        </div>
+        <div class="card-body">
+          <p class="card-text    h6 ">Nike Air Max Unisex SYSTM Men Sneaker Shoes</p>
+          <h4>$ 148</h4>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <script src="java/ja.js"></script>
+</body>
+
 </html>
