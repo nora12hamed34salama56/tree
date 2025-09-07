@@ -165,16 +165,25 @@
         <a class="navbar-brand fs-6 fw-bold text-black  hamed" href="file:///C:/Users/Dr.Hamed%20Salama/Desktop/nora-web-design-tasks/final%20projuct/Categories.html">Categories <span><i class="fa-solid fa-angle-down"></i></span></a>
        <ul class="tex-center list-unstyled fs-6 fw-bold">
         <li class="nav-item dropdown mt-3">
-          <a class="nav-link dropdown-toggle hamed" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+         <a class="nav-link dropdown-toggle hamed" href="#" id="productsBtn" data-bs-toggle="dropdown">
             Products
           </a>
-          <ul class="dropdown-menu list-unstyled fs-5">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <ul class="dropdown-menu list-unstyled fs-5 mt-3" aria-labelledby="productsBtn">
+            <li><a class="dropdown-item" href="#">Simple product</a></li>
+            <li><a class="dropdown-item" href="#">Variable – Label Attribute</a></li>
+            <li><a class="dropdown-item" href="#">Variable – Dropdown Attribute</a></li>
+            <li><a class="dropdown-item" href="#">Variable – Color Swatch</a></li>
+            <li><a class="dropdown-item" href="#">Variable – Variation Thumbnail</a></li>
+            <li><a class="dropdown-item" href="#">Group product</a></li>
+            <li><a class="dropdown-item" href="#">External Product</a></li>
+            <li><a class="dropdown-item" href="#">Vertical Thumbnail </a></li>
+            <li><a class="dropdown-item" href="#">Horizontal thumbnail</a></li>
+            <li><a class="dropdown-item" href="#">Summary Scrolling</a></li>
+            <li><a class="dropdown-item" href="#">Flash Sale</a></li>
+            <li><a class="dropdown-item" href="#">Video + 360 degree</a></li>
           </ul>
-        </ul>
+        </li>
+      </ul>
         <a class="navbar-brand fs-6 fw-bold hover hamed" href="file:///C:/Users/Dr.Hamed%20Salama/Desktop/nora-web-design-tasks/final%20projuct/Pages.html">Pages <span><i class="fa-solid fa-angle-down"></i></span></a>
         <a class="navbar-brand fs-6 fw-bold hover hamed" href="file:///C:/Users/Dr.Hamed%20Salama/Desktop/nora-web-design-tasks/final%20projuct/About.html">About us </a>
         <a class="navbar-brand fs-6 fw-bold hover hamed" href="#">Blog</a>
@@ -218,36 +227,41 @@
       
 
 <div class="row mt-5">
-  <div class="col ">
-    <input type="text" class="form-control" placeholder="Name and surname*" aria-label="First name" style="background-color: #ebeef0;">
-    <div id="validationServerUsernameFeedback" class="invalid-feedback">
-      The Field is required.
-      </div>
+<div id="formAlert" class="alert alert-warning text-center d-none" role="alert" style="background-color: #fff6f2; color: #d35400;">
+  One or more fields have an error. Please check and try again.
+</div>
+
+<div id="formAlert" class="alert alert-warning text-center d-none" role="alert" style="background-color: #fff6f2; color: #d35400;">
+  One or more fields have an error. Please check and try again.
+</div>
+
+<form id="contactForm" novalidate>
+  <div class="row g-3">
+    <div class="col-md-6">
+      <input type="text" id="name" class="form-control" placeholder="Name and Surname *" style="background-color: #ebeef0;">
+      <div class="text-danger small d-none" id="nameError">The field is required.</div>
+    </div>
+    <div class="col-md-6">
+      <input type="email" id="email" class="form-control" placeholder="Email *" style="background-color: #ebeef0;">
+      <div class="text-danger small d-none" id="emailError">The field is required.</div>
+    </div>
   </div>
-  <div class="col">
-    <input type="email" class="form-control" placeholder="Email*" aria-label="email"style="background-color: #ebeef0;">
+
+  <div class="mt-4">
+    <input type="text" id="subject" class="form-control" placeholder="Subject *" style="background-color: #ebeef0;">
+    <div class="text-danger small d-none" id="subjectError">The field is required.</div>
   </div>
-</div>
-<div class="mt-4">
-  <input type="text" class="form-control" placeholder="Subject*" aria-label="First name" style="background-color: #ebeef0;">
-    <div id="validationServerUsernameFeedback" class="invalid-feedback">
-      The Field is required.
-      </div>
-</div>
 
+  <div class="form-floating mt-4">
+    <textarea id="message" class="form-control" placeholder="Message" style="height: 120px; background-color: #ebeef0;"></textarea>
+    <label for="message">Message</label>
+    <div class="text-danger small d-none" id="messageError">The field is required.</div>
+  </div>
 
-
-<div class="form-floating mt-4">
-  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 150px;background-color: #ebeef0;"></textarea>
-  <label for="floatingTextarea">Message</label>
-</div>
-
-
-
-<div class="d-grid gap-2 mt-4 mb-5 ">
-  <button class="btn btn-primary bg-black button" type="button">GET IN TOUCH</button>
-</div>
-
+  <div class="d-grid gap-2 mt-4 mb-5">
+    <button class="btn btn-dark py-2 button" type="submit">GET IN TOUCH</button>
+  </div>
+</form>
     </div>
 </div>
 <div class="mt-5">
@@ -281,6 +295,7 @@
     </div>
   </div>
 </div>
+<a href="" class="scure-black rounded-2 bg-black position-fixed bottom-0 end-0 me-5 d-none"  id="topButton" ><i class="fa-solid fa-arrow-up text-light px-2 py-1"></i></a>
 </div>
 <footer class="bg-dark text-light pt-5 pb-4">
     <div class="container-fluid">
@@ -385,7 +400,13 @@
         </div>
     </div>
 </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<div class="overlay"></div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="java/ja.js"></script>
   </body>
 </html>

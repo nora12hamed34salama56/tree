@@ -202,19 +202,26 @@
         <span><i class="fa-solid fa-angle-down"></i></span></a>
       <ul class="tex-center list-unstyled fs-6 fw-bold">
         <li class="nav-item dropdown mt-3">
-          <a class="nav-link dropdown-toggle hamed" href="#" role="button" data-bs-toggle="dropdown"
-            aria-expanded="false">
+          <a class="nav-link dropdown-toggle hamed" href="#" id="productsBtn" data-bs-toggle="dropdown">
             Products
           </a>
-          <ul class="dropdown-menu list-unstyled fs-5">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <ul class="dropdown-menu list-unstyled fs-5 mt-3" aria-labelledby="productsBtn">
+            <li><a class="dropdown-item" href="#">Simple product</a></li>
+            <li><a class="dropdown-item" href="#">Variable – Label Attribute</a></li>
+            <li><a class="dropdown-item" href="#">Variable – Dropdown Attribute</a></li>
+            <li><a class="dropdown-item" href="#">Variable – Color Swatch</a></li>
+            <li><a class="dropdown-item" href="#">Variable – Variation Thumbnail</a></li>
+            <li><a class="dropdown-item" href="#">Group product</a></li>
+            <li><a class="dropdown-item" href="#">External Product</a></li>
+            <li><a class="dropdown-item" href="#">Vertical Thumbnail </a></li>
+            <li><a class="dropdown-item" href="#">Horizontal thumbnail</a></li>
+            <li><a class="dropdown-item" href="#">Summary Scrolling</a></li>
+            <li><a class="dropdown-item" href="#">Flash Sale</a></li>
+            <li><a class="dropdown-item" href="#">Video + 360 degree</a></li>
           </ul>
+        </li>
       </ul>
+
       <a class="navbar-brand fs-6 fw-bold hover hamed"
         href="file:///C:/Users/Dr.Hamed%20Salama/Desktop/nora-web-design-tasks/final%20projuct/Pages.html">Pages
         <span><i class="fa-solid fa-angle-down"></i></span></a>
@@ -225,302 +232,939 @@
         Discount</a>
       <a class="navbar-brand fs-6 fw-bold ms-5 hover hamed" href="#">Recently Viewwd <span><i
             class="fa-solid fa-angle-down"></i></span></a>
-
     </div>
   </nav>
-  <div class="row">
-    <div class="col-8">
+  <div class="row d-flex">
+    <div class="col-8 pe-0 me-0">
 
 
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false" data-bs-interval="2000">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="0" class="active"
+          <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="0" class="active circle"
             aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="1"
+          <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="1"class="circle"
             aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="2"
+          <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="2"class="circle"
             aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="2000">
             <img src="image/slide1-demo1.jpg" class="d-block w-100 hight" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+            <div class="carousel-caption d-none d-md-block textWhite">
+               <h5 >Limited time offer *</h5>
+              <h2 class="fw-bold h1">From Italia<br>Sale 25% Off</h2>
+              <h3 class="fs-2">Armchairs!</h3>
+              <button type="button" class="btn btn-primary btn-lg text-black bg-white fs-6 mt-4 border border-0 fw-bold button-4">SHOP NOW</button>
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="2000">
             <img src="image/slide2-demo1.jpg" class="d-block w-100 hight" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+            <div class="carousel-caption d-none d-md-block  textWhite">
+             <h5 >Up To 40% Off</h5>
+              <h2 class="fw-bold h1">Body Lotion<br>Spf lab 50 +</h2>
+              <h3 class="fs-2">PA+++++</h3>
+              <button type="button" class="btn btn-primary btn-lg text-black bg-white fs-6 mt-4 border border-0 fw-bold button-4">SHOP NOW</button>
             </div>
           </div>
           <div class="carousel-item ">
-            <img src="image/slide3-demo1.png" class="d-block w-100 hight" alt="..." style="background-color: brown;">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+            <img src="image/slide3-demo1.png" class="d-block w-100 hight" alt="..." style="background-color:#db5847;">
+            <div class="carousel-caption d-none d-md-block  textWhite">
+              <h5 >Limited time offer *</h5>
+              <h2 class="fw-bold h1">Up To 20% <br>Instant Camera</h2>
+              <h3 class="fs-2">Fujifilm's</h3>
+              <button type="button" class="btn btn-primary btn-lg text-black bg-white fs-6 mt-4 border border-0 fw-bold button-4">SHOP NOW</button>
             </div>
           </div>
         </div>
       </div>
-
-
+    </div>
+    <div class="col-4 ms-0 ps-0">
+      <div class="position-relative img-container">
+<img src="image/banner1-demo1.jpg" class=" w-100 hight1">
+<div class="position-absolute top-0 start-0 ms-5 mt-3">
+  <h5>BLACK FRIDAY</h5>
+  <h2 class="display-6 fw-bold">Big Sale <br>Eyeshadow</h2>
+  <p>Over +100 items</p>
+  <button type="button" class="btn btn-outline-dark fw-bold">SHOP NOW</button>
+</div>
+      </div>
+      <div class="position-relative img-container" >
+        <img src="image/banner2-demo1.jpg"  class="hight1 w-100">
+        <div class="position-absolute top-0 start-0 ms-5 mt-3">
+  <h5>NEW COLLECTION</h5>
+  <h2 class="display-6 fw-bold">Puffer Jacket <br>30% Off</h2>
+  <p>Best jacket in year</p>
+  <button type="button" class="btn btn-outline-dark fw-bold">SHOP NOW</button>
+</div>
+<div class="position-absolute   color-red">
+  <p>$29</p>
+</div>
+      </div>
     </div>
     </div>
     <div class="container">
-      <div class="owl-carousel mt-5">
-        <div>
-          <div class="card  rounded-0 position-relative card-1" >
-            <img src="image/fashion-5-300x300.jpg" class="card-img-top" alt="...">
-            <p class="position-absolute text-white fw-bold start-0 top-0 ms-3 mt-3 rounded-1"
-              style="background-color: orangered; padding: 5px 10px;">HOT</p>
-            <div class="position-absolute top-0 end-0 me-3 mt-5 d-flex  flex-column d-none heard">
-              <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  " data-bs-toggle="tooltip"
-                data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
-                  class="fa-regular fa-heart text-black "></i></a>
-              <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
-                data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
-                  class="fa-solid fa-left-right text-black "></i></a>
-              <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
-                data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
-                  class="fa-solid fa-magnifying-glass text-black "></i></a>
-              <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
-                data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
-                  class="fa-solid fa-cart-shopping text-black "></i></a>
-            </div>
-            <div class="card-body">
-              <p class="card-text    h6 ">Nike Air Max Unisex SYSTM Men Sneaker Shoes</p>
-              <h4>$ 148</h4>
-            </div>
-          </div>
+    <div class="row mt-5">
+      <div class="col-3 d-flex border-end black ">
+        <i class="fa-solid fa-truck-fast mt-3 fs-2  me-2 text-secondary"></i>
+        <div class="ms-3">
+    <h5>Fast, Free Shipping</h5>
+    <p class="text-secondary">On order over $50</p>
+    </div>
+      </div>
+      <div class="col-3 d-flex border-end black">
+<i class="fa-regular fa-clock  mt-3 fs-2  me-2 text-secondary"></i>
+ <div class="ms-3">
+    <h5>Next Day Delivery</h5>
+    <p class="text-secondary">Free-Spend  over $99</p>
+    </div>
+      </div>
+      <div class="col-3 d-flex border-end black">
+<i class="fa-solid fa-percent  mt-3 fs-2  me-2 text-secondary"></i>
+ <div class="ms-3">
+    <h5>Low Price Guarantee</h5>
+    <p class="text-secondary">We Offer Competitive Prices</p>
+    </div>
+      </div>
+      <div class="col-3 d-flex black ">
+<i class="fa-regular fa-thumbs-up  mt-3 fs-2  me-2 text-secondary"></i>
+ <div class="ms-3">
+    <h5>Quality Guarantee</h5>
+    <p class="text-secondary">We Guarantee Our Products</p>
+    </div>
+      </div>
+    </div>
+    <div class="owl-carousel slider-5-2 mt-5">
+       <div>
+      <div class="position-relative align-items-center card-3">
+        <img src="image/cat-1.jpg"class="circle-2">
+        <div class="overlay-1 position-absolute top-0 start-0 position-relative">
+        <p><i class="fa-solid fa-arrow-right position-absolute top-50 start-50 translate-middle text-white  fw-bold"></i></p>
+             </div>
+              <h6 class="ps-5 hamed">SmartPhone</h6>
+      </div>
+      </div>
+      <div>
+       <div class="position-relative align-items-center card-3">
+        <img src="image/cat-2.jpg"class="circle-2">
+        <div class="overlay-1 position-absolute top-0 start-0 position-relative">
+        <p><i class="fa-solid fa-arrow-right position-absolute top-50 start-50 translate-middle text-white  fw-bold"></i></p>
+             </div>
+             <h6 class="ps-3 hamed">Home & Decor</h6>
+       </div>
+       </div>
+       <div>
+        <div class="position-relative align-items-center card-3">
+          <img src="image/cat-4.jpg"class="circle-2">
+         <div class="overlay-1 position-absolute top-0 start-0 position-relative">
+        <p><i class="fa-solid fa-arrow-right position-absolute top-50 start-50 translate-middle text-white  fw-bold"></i></p>
+             </div>
+             <h6 class="ps-5 hamed">Autopart</h6>
         </div>
-        <div ><div class="card  rounded-0 position-relative card-1" >
-  <img src="image/electronic-30-5-300x300.jpg" class="card-img-top" alt="...">
-  <div class="position-absolute top-0 end-0 me-3 mt-5 d-flex  flex-column d-none heard">
+        </div>
+        <div>
+         <div class="position-relative align-items-center card-3">
+          <img src="image/cat-5.jpg"class="circle-2">
+        <div class="overlay-1 position-absolute top-0 start-0 position-relative">
+        <p><i class="fa-solid fa-arrow-right position-absolute top-50 start-50 translate-middle text-white fw-bold"></i></p>
+             </div>
+             <h6 class="hamed">Laptop & Computer</h6>
+         </div>
+         </div>
+         <div>
+          <div class="position-relative align-items-center card-3">
+            <img src="image/cat-6.jpg"class="circle-2">
+         <div class="overlay-1 position-absolute top-0 start-0 position-relative">
+        <p><i class="fa-solid fa-arrow-right position-absolute top-50 start-50 translate-middle text-white  fw-bold"></i></p>
+             </div>
+             <h6 class="ms-5 hamed">Fashion</h6>
+          </div>
+          </div>
+          <div>
+           <div class="position-relative align-items-center card-3">
+            <img src="image/cat-7.jpg"class="circle-2">
+         <div class="overlay-1 position-absolute top-0 start-0 position-relative">
+        <p><i class="fa-solid fa-arrow-right position-absolute top-50 start-50 translate-middle text-white  fw-bold"></i></p>
+             </div>
+             <h6 class="ms-4 hamed">Headphones</h6>
+           </div>
+           </div>
+           <div>
+            <div class="position-relative align-items-center card-3">
+              <img src="image/cat-8.jpg"class="circle-2">
+         <div class="overlay-1 position-absolute top-0 start-0 position-relative">
+        <p><i class="fa-solid fa-arrow-right position-absolute top-50 start-50 translate-middle text-white  fw-bold"></i></p>
+             </div>
+             <h6 class="ms-5 hamed">HandBags</h6>
+            </div>
+            </div>
+            <div>
+             <div class=" position-relative align-items-center card-3">
+              <img src="image/cosmetic-cat-7.jpg"class="circle-2 ">
+              <div class="overlay-1 position-absolute top-0 start-0 position-relative">
+        <p><i class="fa-solid fa-arrow-right position-absolute top-50 start-50 translate-middle text-white  fw-bold"></i></p>
+             </div>
+             <h6 class="ps-5 ">Makeup</h6>
+             </div>
+             </div>
+    </div>
+    <div  class="border  border-black mt-5  align-items-center d-flex rounded-2">
+      <h5 class="margin-2 p-2">Super discount for your first purchase <u class="text-danger">CoupoN25</u> Use discount code in the checkout!</h5>
+    </div>
+    <div class="d-flex justify-content-between mt-5 mb-4">
+      <h2>Flash Deals</h2>
+      <p>Ends in <span class="circle-3 ms-2 me-2 p-2">01</span>:<span  class="circle-3 ms-2 me-2 p-2">38</span>: <span  class="circle-3 ms-2 py-2 px-2">13</span></p>
+    </div>
+    <div class="owl-carousel slider-5">
+  <div> <div class="card col-3 rounded-0 position-relative card-1 width" >
+  <img src="image/electronic-30-6-300x300.jpg" class="card-img-top" alt="...">
+    <p class="position-absolute text-white fw-bold start-0 top-0 ms-3 mt-3 rounded-1 red">-35%</p>
+  <div class="position-absolute top-0 end-0 me-5 mt-5 d-flex  flex-column d-none heard">
     <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-regular fa-heart text-black "></i></a>
     <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-left-right text-black "></i></a>
     <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-magnifying-glass text-black "></i></a>
     <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-cart-shopping text-black "></i></a>
   </div>
-  <div class="card-body">
-    <p class="card-text h6">Apple MacBook Air With Apple M1 Chip,13.3 inch,8GB RAM,...</p>
-    <h4>$572</h4>
+  <div class="card-body me-3">
+    <p class="card-text h6">Laptop Asus Vivobook 15 1355U,8GB RAM,512GB SSD</p>
+    <h4>$999 <span class="text-secondary fs-5"><del>$1,536</del></span></h4>
+    <a> <i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star-half-stroke fa-xs"></i></a>
+  </div>
+</div> </div>
+  <div><div class="card col-3 rounded-0 position-relative card-1 width">
+  <img src="image/electronic-14-2-300x300.jpg" class="card-img-top" alt="...">
+    <p class="position-absolute text-white fw-bold start-0 top-0 ms-3 mt-3 rounded-1 red" >-6%</p>
+  <div class="position-absolute top-0 end-0 me-5 mt-5 d-flex  flex-column d-none heard">
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-regular fa-heart text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-left-right text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-magnifying-glass text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-cart-shopping text-black "></i></a>
+  </div>
+  <div class="card-body me-3">
+    <p class="card-text h6">Apple Watch Series 9 GPS 45mm, Aluminum Case With...</p>
+    <h4>$890 <del class="text-secondary fs-5">$950</del></h4>
+     <a> <i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star-half-stroke fa-xs"></i></a>
+  </div>
+</div> </div>
+  <div> <div class="card col-3 rounded-0 position-relative card-1 width" >
+  <img src="image/automotive-11-300x300.jpg" class="card-img-top" alt="...">
+    <p class="position-absolute text-white fw-bold start-0 top-0 ms-3 mt-3 rounded-1 red" >-8%</p>
+  <div class="position-absolute top-0 end-0 me-5 mt-5 d-flex  flex-column d-none heard">
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-regular fa-heart text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-left-right text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-magnifying-glass text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-cart-shopping text-black "></i></a>
+  </div>
+  <div class="card-body me-3">
+    <p class="card-text h6">TOOLS 34 Low Profile Hydraulic Trolley</p>
+    <h4>$767 <del class="text-secondary fs-5">$837</del></h4>
+        <a> <i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i></a>
+  </div>
+</div> </div>
+  <div> <div class="card col-3 rounded-0 position-relative card-1 width">
+  <img src="image/furniture-6-300x300.jpg" class="card-img-top" alt="...">
+    <p class="position-absolute text-white fw-bold start-0 top-0 ms-3 mt-3 rounded-1 red" >-33%</p>
+  <div class="position-absolute top-0 end-0 me-5 mt-5 d-flex  flex-column d-none heard">
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-regular fa-heart text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-left-right text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-magnifying-glass text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-cart-shopping text-black "></i></a>
+  </div>
+  <div class="card-body me-3">
+    <p class="card-text h6">14-inch Fasion Simplicity Quality Wall Clock, Home...</p>
+    <h4>$50 <del class="text-secondary fs-5">$75</del></h4>
+     <a> <i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star-half-stroke fa-xs"></i></a>
+  </div>
+</div> </div>
+  <div> <div class="card col-3 rounded-0 position-relative card-1 width">
+  <img src="image/cosmetics-33-300x300.jpg" class="card-img-top" alt="...">
+    <p class="position-absolute text-white fw-bold start-0 top-0 ms-3 mt-3 rounded-1 red" >-37%</p>
+   <div class="position-absolute top-0 end-0 me-5 mt-5 d-flex  flex-column d-none heard">
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-regular fa-heart text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-left-right text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-magnifying-glass text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-cart-shopping text-black "></i></a>
+  </div>
+  <div class="card-body me-3">
+    <p class="card-text h6">Translucent Compact Face Powder-03 Medium,0.22 oZ </p>
+    <h4>$129 <del class="text-secondary fs-5">$199</del></h4>
+     <a> <i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-regular fa-star fa-xs"></i></a>
+  </div>
+</div> </div>
+  <div> <div class="card col-3 rounded-0 position-relative card-1 width">
+  <img src="image/cosmetic-2-300x300.jpg" class="card-img-top" alt="...">
+    <p class="position-absolute text-white fw-bold start-0 top-0 ms-3 mt-3 rounded-1 red" >-37%</p>
+   <div class="position-absolute top-0 end-0 me-5 mt-5 d-flex  flex-column d-none heard">
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-regular fa-heart text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-left-right text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-magnifying-glass text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-cart-shopping text-black "></i></a>
+  </div>
+  <div class="card-body me-3">
+    <p class="card-text h6">Makeup Brushes Artisan Easel Elite Cosmetics</p>
+    <h4>$19 <del class="text-secondary fs-5">$30</del></h4>
+     <a> <i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star-half-stroke fa-xs"></i><i class="fa-solid fa-star fa-xs"></i></a>
+  </div>
+</div> </div>
+<div><div class="card col-3 rounded-0 position-relative card-1 width ">
+  <img src="image/fashion-10-1-300x300.jpg" class="card-img-top" alt="...">
+  <div class="position-absolute top-0 end-0 me-5 mt-5 d-flex  flex-column d-none heard">
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-regular fa-heart text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-left-right text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-magnifying-glass text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-cart-shopping text-black "></i></a>
+  </div>
+  <div class="card-body me-3">
+    <p class="card-text h6">Tonga on T-Shirt for Men, Women Short Sleeve Tee</p>
+    <h4>$43</h4>
+     <a> <i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-regular fa-star fa-xs"></i></a>
+  </div>
+</div></div>
+  <div><div class="card col-3 rounded-0 position-relative card-1 width">
+  <img src="image/cosmetics-40-1-300x300.jpg" class="card-img-top" alt="...">
+    <p class="position-absolute text-white fw-bold start-0 top-0 ms-3 mt-3 rounded-1 red" >-37%</p>
+   <div class="position-absolute top-0 end-0 me-5 mt-5 d-flex  flex-column d-none heard">
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-regular fa-heart text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-left-right text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-magnifying-glass text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-cart-shopping text-black "></i></a>
+  </div>
+  <div class="card-body me-3">
+    <p class="card-text h6">Allure Luminous intense Lipstick 0.15oz</p>
+    <h4>$20 <del class="text-secondary fs-5">$24</del></h4>
+     <a> <i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i></a>
+  </div>
+</div> </div>
+</div>
+<div class="row mt-5 d-flex justify-content-between">
+  <div class="position-relative img-container width-1" >
+        <img src="image/banner3-demo1.jpg"  class="hight1 w-100 rounded-2">
+        <div class="position-absolute top-50 start-0 ms-5 mt-3">
+  <h2 class=" fw-bold text-white  ps-4">SALE 10% OFF TIRES MICHELIN</h2>
+</div>
+  </div>
+  <div class="position-relative  width-2 aline-items-center img-container " >
+        <img src="image/banner4-demo1.jpg"  class="hight1 w-100 rounded-2">
+        <div class="position-absolute top-0 start-0 ms-5 ps-5 mt-3">
+  <h6 class="brown ms-5 ps-5">NEW COLLECTION</h6>
+  <h2 class=" fw-bold ms-5">Sofa Crafted in Uk </h2>
+  <a class="text-black border-bottom border-3 border-black text-decoration-none margin-3"> Shop now <i class="fa-solid fa-arrow-right ms-2"></i></a>
+</div>
+  </div>
+  <div class="position-relative width-1 img-container" >
+        <img src="image/banner5-demo1.jpg"  class="hight1 w-100 rounded-2">
+        <div class="position-absolute top-50 start-0 ms-5 mt-5">
+  <h3 class=" fw-bold text-white mt-2 ps-4">Steals under $25</h3>
+  
+</div>
+</div>
+  </div>
+  <div class="d-flex justify-content-between mt-5 mb-3">
+    <h2>New arrivals</h2>
+    <ul class="nav nav-underline">
+  <li class="nav-item">
+    <a class="nav-link active " aria-current="page" href="#">Fashion</a>
+  <li class="nav-item">
+    <a class="nav-link text-black fs-6" href="#">Phone & tablet</a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link text-black fs-6" href="#">Home & Decor</a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link text-black fs-6" href="#">Beauty & Health</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active  " aria-current="page" href="#">See All Products</a>
+  </li>
+    </ul>
+  </div>
+  <div class="row ">
+    
+
+<div class="card mb-3 col-4 mb-0 width-3 position-relative card-2">
+  <div class="row g-0 ">
+    <div class="col-md-4">
+      <img src="image/fashion-5-300x300.jpg" class="img-fluid rounded-start" alt="...">
+      <p class="position-absolute text-white fw-bold start-0 top-0 ms-1 mt-1 rounded-1 hot">HOT</p>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <p class="card-text    h6 ">Nike Air Max Unisex SYSTM Men Sneaker Shoes</p>
+    <h4>$ 148</h4>
+   <a> <i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star-half-stroke fa-xs"></i></a>
+  </div>
+      <div class="position-absolute top-50 start-0  ms-3 mt-5 d-flex flex-row d-none heard-1">
+        <button type="button" class="btn btn-outline-dark py-1 px-5 fw-bold ">+ SELECT OPTIONS</button>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 ms-2 "data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" href=""><i class="fa-solid fa-left-right text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  ms-2"data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" href=""><i class="fa-solid fa-magnifying-glass text-black "></i></a>
+     <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 ms-2 "data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" href=""><i class="fa-regular fa-heart text-black "></i></a>
+  </div>
+  </div>
   </div>
 </div>
-      </div>
-      <div ><div class="card rounded-0 position-relative card-1" >
-        <img src="image/fashion-5-300x300.jpg" class="card-img-top" alt="...">
-        <p class="position-absolute text-white fw-bold start-0 top-0 ms-3 mt-3 rounded-1"
-          style="background-color: orangered; padding: 5px 10px;">HOT</p>
-        <div class="position-absolute top-0 end-0 me-3 mt-5 d-flex  flex-column d-none heard">
-          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  " data-bs-toggle="tooltip"
-            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
-              class="fa-regular fa-heart text-black "></i></a>
-          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
-            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
-              class="fa-solid fa-left-right text-black "></i></a>
-          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
-            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
-              class="fa-solid fa-magnifying-glass text-black "></i></a>
-          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
-            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
-              class="fa-solid fa-cart-shopping text-black "></i></a>
-        </div>
-        <div class="card-body">
-          <p class="card-text    h6 ">Nike Air Max Unisex SYSTM Men Sneaker Shoes</p>
-          <h4>$ 148</h4>
-        </div>
-      </div>
+
+
+<div class="card mb-3 col-4 mb-0 width-3 card-2 position-relative">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="image/fashion-9-300x300.jpg" class="img-fluid rounded-start" alt="...">
     </div>
-    <div>
-      <div class="card  rounded-0 position-relative card-1" >
-        <img src="image/fashion-5-300x300.jpg" class="card-img-top" alt="...">
-        <p class="position-absolute text-white fw-bold start-0 top-0 ms-3 mt-3 rounded-1"
-          style="background-color: orangered; padding: 5px 10px;">HOT</p>
-        <div class="position-absolute top-0 end-0 me-3 mt-5 d-flex  flex-column d-none heard">
-          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  " data-bs-toggle="tooltip"
-            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
-              class="fa-regular fa-heart text-black "></i></a>
-          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
-            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
-              class="fa-solid fa-left-right text-black "></i></a>
-          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
-            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
-              class="fa-solid fa-magnifying-glass text-black "></i></a>
-          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
-            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
-              class="fa-solid fa-cart-shopping text-black "></i></a>
-        </div>
-        <div class="card-body">
-          <p class="card-text    h6 ">Nike Air Max Unisex SYSTM Men Sneaker Shoes</p>
-          <h4>$ 148</h4>
-        </div>
-      </div>
+    <div class="col-md-8">
+      <div class="card-body mt-3">
+        <p class="card-text h6">100% UV Protected Sunglasses For Men</p>
+    <h4>$123</h4>
+<a> <i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i></a>
+       </div>
+      <div class="position-absolute top-50 start-0  ms-3 mt-5 d-flex flex-row d-none heard-1">
+        <button type="button" class="btn btn-outline-dark py-1 px-5 fw-bold ">+ SELECT OPTIONS</button>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 ms-2 "data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" href=""><i class="fa-solid fa-left-right text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  ms-2"data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" href=""><i class="fa-solid fa-magnifying-glass text-black "></i></a>
+     <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 ms-2 "data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" href=""><i class="fa-regular fa-heart text-black "></i></a>
+  </div>
+  </div>
+</div>
+</div>
+
+
+<div class="card mb-3 col-4 mb-0 width-3 card-2 position-relative" >
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="image/fashion-6-300x300.jpg" class="img-fluid rounded-start" alt="...">
     </div>
-    <div>
-      <div class="card  rounded-0 position-relative card-1" >
-        <img src="image/fashion-5-300x300.jpg" class="card-img-top" alt="...">
-        <p class="position-absolute text-white fw-bold start-0 top-0 ms-3 mt-3 rounded-1"
-          style="background-color: orangered; padding: 5px 10px;">HOT</p>
-        <div class="position-absolute top-0 end-0 me-3 mt-5 d-flex  flex-column d-none heard">
-          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  " data-bs-toggle="tooltip"
-            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
-              class="fa-regular fa-heart text-black "></i></a>
-          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
-            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
-              class="fa-solid fa-left-right text-black "></i></a>
-          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
-            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
-              class="fa-solid fa-magnifying-glass text-black "></i></a>
-          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
-            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
-              class="fa-solid fa-cart-shopping text-black "></i></a>
-        </div>
-        <div class="card-body">
-          <p class="card-text    h6 ">Nike Air Max Unisex SYSTM Men Sneaker Shoes</p>
-          <h4>$ 148</h4>
-        </div>
-      </div>
+    <div class="col-md-8">
+      <div class="card-body mt-3">
+        <p class="card-text h6">Lv Women Leather Accent Denim Mini Skirt</p>
+    <h4>$1,390</h4>
+     <a> <i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-regular fa-star fa-xs"></i></a>
+  </div>
+     <div class="position-absolute top-50 start-0  ms-3 mt-5 d-flex flex-row d-none heard-1">
+        <button type="button" class="btn btn-outline-dark py-1 px-5 fw-bold ">+ SELECT OPTIONS</button>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 ms-2 "data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" href=""><i class="fa-solid fa-left-right text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  ms-2"data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" href=""><i class="fa-solid fa-magnifying-glass text-black "></i></a>
+     <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 ms-2 "data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" href=""><i class="fa-regular fa-heart text-black "></i></a>
+  </div>
+  </div>
+</div>
+</div>
+
+
+<div class="card mb-3 col-4 width-3 card-2 position-relative" >
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="image/fashion-16-300x300.jpg" class="img-fluid rounded-start" alt="...">
     </div>
-    <div>
-      <div class="card  rounded-0 position-relative card-1" >
-        <img src="image/fashion-5-300x300.jpg" class="card-img-top" alt="...">
-        <p class="position-absolute text-white fw-bold start-0 top-0 ms-3 mt-3 rounded-1"
-          style="background-color: orangered; padding: 5px 10px;">HOT</p>
-        <div class="position-absolute top-0 end-0 me-3 mt-5 d-flex  flex-column d-none heard">
-          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  " data-bs-toggle="tooltip"
-            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
-              class="fa-regular fa-heart text-black "></i></a>
-          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
-            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
-              class="fa-solid fa-left-right text-black "></i></a>
-          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
-            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
-              class="fa-solid fa-magnifying-glass text-black "></i></a>
-          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
-            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
-              class="fa-solid fa-cart-shopping text-black "></i></a>
-        </div>
-        <div class="card-body">
-          <p class="card-text    h6 ">Nike Air Max Unisex SYSTM Men Sneaker Shoes</p>
-          <h4>$ 148</h4>
-        </div>
-      </div>
+    <div class="col-md-8">
+      <div class="card-body mt-3">
+         <p class="card-text h6">A Different Christmas Knit Holiday Sweater</p>
+    <h4>$50 - $65</h4>
+    <a class="text-decoration-none text-black"><i class="fa-regular fa-star fa-xs"></i><i class="fa-regular fa-star fa-xs"></i><i class="fa-regular fa-star fa-xs"></i><i class="fa-regular fa-star fa-xs"></i><i class="fa-regular fa-star fa-xs"></i></a>
+  </div>
+     <div class="position-absolute top-50 start-0  ms-3 mt-5 d-flex flex-row d-none heard-1">
+        <button type="button" class="btn btn-outline-dark py-1 px-5 fw-bold ">+ SELECT OPTIONS</button>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 ms-2 "data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" href=""><i class="fa-solid fa-left-right text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  ms-2"data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" href=""><i class="fa-solid fa-magnifying-glass text-black "></i></a>
+     <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 ms-2 "data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" href=""><i class="fa-regular fa-heart text-black "></i></a>
+  </div>
+  </div>
+</div>
+</div>
+<div class="card mb-3 col-4 mb-0 width-3 position-relative card-2">
+  <div class="row g-0 ">
+    <div class="col-md-4">
+      <img src="image/fashion-1-300x300.jpg" class="img-fluid rounded-start" alt="...">
     </div>
-    <div>
-      <div class="card  rounded-0 position-relative card-1" >
-        <img src="image/fashion-5-300x300.jpg" class="card-img-top" alt="...">
-        <p class="position-absolute text-white fw-bold start-0 top-0 ms-3 mt-3 rounded-1"
-          style="background-color: orangered; padding: 5px 10px;">HOT</p>
-        <div class="position-absolute top-0 end-0 me-3 mt-5 d-flex  flex-column d-none heard">
-          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  " data-bs-toggle="tooltip"
-            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
-              class="fa-regular fa-heart text-black "></i></a>
-          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
-            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
-              class="fa-solid fa-left-right text-black "></i></a>
-          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
-            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
-              class="fa-solid fa-magnifying-glass text-black "></i></a>
-          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
-            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
-              class="fa-solid fa-cart-shopping text-black "></i></a>
-        </div>
-        <div class="card-body">
-          <p class="card-text    h6 ">Nike Air Max Unisex SYSTM Men Sneaker Shoes</p>
-          <h4>$ 148</h4>
-        </div>
-      </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <p class="card-text    h6 ">Winter New Jacket Loose Retro American Campus</p>
+    <h4>$ 160</h4>
+   <a> <i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star-half-stroke fa-xs"></i></a>
+  </div>
+      <div class="position-absolute top-50 start-0  ms-3 mt-5 d-flex flex-row d-none heard-1 mb-4">
+        <button type="button" class="btn btn-outline-dark py-1 px-5 fw-bold mb-3">+ SELECT OPTIONS</button>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 ms-2  mb-3"data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" href=""><i class="fa-solid fa-left-right text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  ms-2 mb-3"data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" href=""><i class="fa-solid fa-magnifying-glass text-black "></i></a>
+     <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 ms-2 mb-3 "data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" href=""><i class="fa-regular fa-heart text-black "></i></a>
+  </div>
+  </div>
+  </div>
+</div>
+<div class="card mb-3 col-4 mb-0 width-3 card-2 position-relative">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="image/fashion-3-300x300.jpg" class="img-fluid rounded-start" alt="...">
     </div>
-    <div>
-      <div class="card  rounded-0 position-relative card-1 width" >
-        <img src="image/fashion-5-300x300.jpg" class="card-img-top" alt="...">
-        <p class="position-absolute text-white fw-bold start-0 top-0 ms-3 mt-3 rounded-1"
-          style="background-color: orangered; padding: 5px 10px;">HOT</p>
-        <div class="position-absolute top-0 end-0 me-3 mt-5 d-flex  flex-column d-none heard">
-          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  " data-bs-toggle="tooltip"
-            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
-              class="fa-regular fa-heart text-black "></i></a>
-          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
-            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
-              class="fa-solid fa-left-right text-black "></i></a>
-          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
-            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
-              class="fa-solid fa-magnifying-glass text-black "></i></a>
-          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
-            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
-              class="fa-solid fa-cart-shopping text-black "></i></a>
-        </div>
-        <div class="card-body">
-          <p class="card-text    h6 ">Nike Air Max Unisex SYSTM Men Sneaker Shoes</p>
-          <h4>$ 148</h4>
-        </div>
-      </div>
+    <div class="col-md-8">
+      <div class="card-body mt-3">
+        <p class="card-text h6">Winter Hats With Top Ball Custom Design</p>
+    <h4>$17</h4>
+<a> <i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i></a>
+       </div>
+      <div class="position-absolute top-50 start-0  ms-3 mt-5 d-flex flex-row d-none heard-1">
+        <button type="button" class="btn btn-outline-dark py-1 px-5 fw-bold ">+ SELECT OPTIONS</button>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 ms-2 "data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" href=""><i class="fa-solid fa-left-right text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  ms-2"data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" href=""><i class="fa-solid fa-magnifying-glass text-black "></i></a>
+     <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 ms-2 "data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" href=""><i class="fa-regular fa-heart text-black "></i></a>
+  </div>
+  </div>
+</div>
+</div>
+  </div>
     </div>
-    <div>
-      <div class="card  rounded-0 position-relative card-1" >
-        <img src="image/fashion-5-300x300.jpg" class="card-img-top" alt="...">
-        <p class="position-absolute text-white fw-bold start-0 top-0 ms-3 mt-3 rounded-1"
-          style="background-color: orangered; padding: 5px 10px;">HOT</p>
-        <div class="position-absolute top-0 end-0 me-3 mt-5 d-flex  flex-column d-none heard">
-          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  " data-bs-toggle="tooltip"
-            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
-              class="fa-regular fa-heart text-black "></i></a>
-          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
-            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
-              class="fa-solid fa-left-right text-black "></i></a>
-          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
-            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
-              class="fa-solid fa-magnifying-glass text-black "></i></a>
-          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
-            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
-              class="fa-solid fa-cart-shopping text-black "></i></a>
-        </div>
-        <div class="card-body">
-          <p class="card-text    h6 ">Nike Air Max Unisex SYSTM Men Sneaker Shoes</p>
-          <h4>$ 148</h4>
-        </div>
-      </div>
+        
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel"data-bs-pause="false" data-bs-interval="5000">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class=" product-section mt-5 bg-secondary-subtle">
+  <div class="row align-items-center">
+
+    <div class="col-md-7 col-lg-8 product-image-container align-items-center d-flex justify-content-between position-relative p-2">
+      <img src="image/slide-hoodie-1.png" alt="" class="img-fluid height-2">
+      <span class="discount-badge position-absolute bg-danger text-white fw-bold  d-flex aline-items-center justify-content-between  rounded-circle fs-5">-30%</span>
     </div>
-    <div>
-      <div class="card  rounded-0 position-relative card-1" >
-        <img src="image/fashion-5-300x300.jpg" class="card-img-top" alt="...">
-        <p class="position-absolute text-white fw-bold start-0 top-0 ms-3 mt-3 rounded-1"
-          style="background-color: orangered; padding: 5px 10px;">HOT</p>
-        <div class="position-absolute top-0 end-0 me-3 mt-5 d-flex  flex-column d-none heard">
-          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  " data-bs-toggle="tooltip"
-            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
-              class="fa-regular fa-heart text-black "></i></a>
-          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
-            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
-              class="fa-solid fa-left-right text-black "></i></a>
-          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
-            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
-              class="fa-solid fa-magnifying-glass text-black "></i></a>
-          <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 " data-bs-toggle="tooltip"
-            data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i
-              class="fa-solid fa-cart-shopping text-black "></i></a>
+
+    <div class="col-md-5 col-lg-4 product-details ">
+      <div class="card p-4 border-0 shadow-sm me-5">
+        <h3 class="card-title fw-bold">Athletics Embroidered <br> Relaxed Hoodie</h3>
+        
+        <ul class="list-unstyled mt-4 fs-6">
+          <li><i class="fa-solid fa-check fa-2xs"></i> 64% cotton, 36% polyester</li>
+          <li><i class="fa-solid fa-check fa-2xs"></i> Do not dry clean</li>
+          <li><i class="fa-solid fa-check fa-2xs"></i> Machine wash</li>
+        </ul>
+        
+        <h3 class="mt-4 mb-3 d-flex align-items-baseline">
+          $89 <span class="old-price">$120</span>
+        </h3>
+        
+        <div class="color-options d-flex mb-4 ">
+          <div class="color-box active"><img src="image/slide-hoodie-4.png"></div>
+          <div class="color-box" ><img src="image/slide-hoodie-3.png"></div>
+          <div class="color-box" ><img src="image/slide-hoodie-2.png"></div>
+          <div class="color-box" ><img src="image/slide-hoodie-1.png"></div>
         </div>
-        <div class="card-body">
-          <p class="card-text    h6 ">Nike Air Max Unisex SYSTM Men Sneaker Shoes</p>
-          <h4>$ 148</h4>
-        </div>
+        
+        <button class="btn btn-dark btn-lg w-100 mt-4 fw-bold">BUY NOW</button>
       </div>
     </div>
 
   </div>
+</div>
+    </div>
+    <div class="carousel-item" data-bs-interval="5000">
+      <div class=" product-section mt-5 bg-secondary-subtle">
+  <div class="row align-items-center">
+
+    <div class="col-md-7 col-lg-8 product-image-container align-items-center d-flex justify-content-between position-relative p-2">
+      <img src="image/slide-hoodie-4.png" alt="" class="img-fluid height-2">
+      <span class="discount-badge position-absolute bg-danger text-white fw-bold  d-flex aline-items-center justify-content-between  rounded-circle fs-5">-30%</span>
+    </div>
+
+    <div class="col-md-5 col-lg-4 product-details ">
+      <div class="card p-4 border-0 shadow-sm me-5">
+        <h3 class="card-title fw-bold">Athletics Embroidered <br> Relaxed Hoodie</h3>
+        
+        <ul class="list-unstyled mt-4 fs-6">
+          <li><i class="fa-solid fa-check fa-2xs"></i> 64% cotton, 36% polyester</li>
+          <li><i class="fa-solid fa-check fa-2xs"></i> Do not dry clean</li>
+          <li><i class="fa-solid fa-check fa-2xs"></i> Machine wash</li>
+        </ul>
+        
+        <h3 class="mt-4 mb-3 d-flex align-items-baseline">
+          $89 <span class="old-price">$120</span>
+        </h3>
+        
+        <div class="color-options d-flex mb-4 ">
+          <div class="color-box active"><img src="image/slide-hoodie-4.png"></div>
+          <div class="color-box" ><img src="image/slide-hoodie-3.png"></div>
+          <div class="color-box" ><img src="image/slide-hoodie-2.png"></div>
+          <div class="color-box" ><img src="image/slide-hoodie-1.png"></div>
+        </div>
+        
+        <button class="btn btn-dark btn-lg w-100 mt-4 fw-bold">BUY NOW</button>
+      </div>
+    </div>
+
   </div>
+</div>
+    </div>
+    <div class="carousel-item " data-bs-interval="5000">
+     <div class=" product-section mt-5 bg-secondary-subtle">
+  <div class="row align-items-center">
+
+    <div class="col-md-7 col-lg-8 product-image-container align-items-center d-flex justify-content-between position-relative p-2">
+      <img src="image/slide-hoodie-2.png" alt="" class="img-fluid height-2">
+      <span class="discount-badge position-absolute bg-danger text-white fw-bold  d-flex aline-items-center justify-content-between  rounded-circle fs-5">-30%</span>
+    </div>
+
+    <div class="col-md-5 col-lg-4 product-details ">
+      <div class="card p-4 border-0 shadow-sm me-5">
+        <h3 class="card-title fw-bold">Athletics Embroidered <br> Relaxed Hoodie</h3>
+        
+        <ul class="list-unstyled mt-4 fs-6">
+          <li><i class="fa-solid fa-check fa-2xs"></i> 64% cotton, 36% polyester</li>
+          <li><i class="fa-solid fa-check fa-2xs"></i> Do not dry clean</li>
+          <li><i class="fa-solid fa-check fa-2xs"></i> Machine wash</li>
+        </ul>
+        
+        <h3 class="mt-4 mb-3 d-flex align-items-baseline">
+          $89 <span class="old-price">$120</span>
+        </h3>
+        
+        <div class="color-options d-flex mb-4 ">
+          <div class="color-box active"><img src="image/slide-hoodie-4.png"></div>
+          <div class="color-box" ><img src="image/slide-hoodie-3.png"></div>
+          <div class="color-box" ><img src="image/slide-hoodie-2.png"></div>
+          <div class="color-box" ><img src="image/slide-hoodie-1.png"></div>
+        </div>
+        
+        <button class="btn btn-dark btn-lg w-100 mt-4 fw-bold">BUY NOW</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+    </div>
+  </div>
+  <button class="carousel-control-prev text-black" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon text-black" aria-hidden="true"></span>
+    <span class="visually-hidden text-black">Previous</span>
+  </button>
+  <button class="carousel-control-next text-black" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon text-black" aria-hidden="true"></span>
+    <span class="visually-hidden text-black">Next</span>
+  </button>
+</div>
+<div class="container">
+    <div class="d-flex justify-content-between mt-5 mb-3 pt-5">
+    <h2>Best Selling</h2>
+    <ul class="nav nav-underline">
+  <li class="nav-item">
+    <a class="nav-link active " aria-current="page" href="#">See All Product</a>
+  </li>
+    </ul>
+    </div>
+    <div class="owl-carousel slider-5">
+      
+  <div> <div class="card col-3 rounded-0 position-relative card-1 width" >
+  <img src="image/electronic-30-6-300x300.jpg" class="card-img-top" alt="...">
+    <p class="position-absolute text-white fw-bold start-0 top-0 ms-3 mt-3 rounded-1 red">-35%</p>
+  <div class="position-absolute top-0 end-0 me-5 mt-5 d-flex  flex-column d-none heard">
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-regular fa-heart text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-left-right text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-magnifying-glass text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-cart-shopping text-black "></i></a>
+  </div>
+  <div class="card-body me-3">
+    <p class="card-text h6">Laptop Asus Vivobook 15 1355U,8GB RAM,512GB SSD</p>
+    <h4>$999 <span class="text-secondary fs-5"><del>$1,536</del></span></h4>
+  </div>
+</div> </div>
+  <div> <div class="card col-3 rounded-0 position-relative card-1 width">
+  <img src="image/fashion-5-300x300.jpg" class="card-img-top" alt="...">
+  <p class="position-absolute text-white fw-bold start-0 top-0 ms-3 mt-3 rounded-1 hot">HOT</p>
+  <div class="position-absolute top-0 end-0 me-5 mt-5 d-flex  flex-column d-none heard">
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-regular fa-heart text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-left-right text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-magnifying-glass text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-cart-shopping text-black "></i></a>
+  </div>
+  <div class="card-body me-3">
+    <p class="card-text    h6 ">Nike Air Max Unisex SYSTM Men Sneaker Shoes</p>
+    <h4>$ 148</h4>
+  </div>
+</div> </div>
+ <div><div class="card col-3 rounded-0 position-relative card-1 width">
+  <img src="image/electronic-14-2-300x300.jpg" class="card-img-top" alt="...">
+    <p class="position-absolute text-white fw-bold start-0 top-0 ms-3 mt-3 rounded-1 red" >-6%</p>
+  <div class="position-absolute top-0 end-0 me-5 mt-5 d-flex  flex-column d-none heard">
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-regular fa-heart text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-left-right text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-magnifying-glass text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-cart-shopping text-black "></i></a>
+  </div>
+  <div class="card-body me-3">
+    <p class="card-text h6">Apple Watch Series 9 GPS 45mm, Aluminum Case With...</p>
+    <h4>$890 <del class="text-secondary fs-5">$950</del></h4>
+  </div>
+</div> </div>
+  <div> <div class="card col-3 rounded-0 position-relative card-1 width">
+  <img src="image/electronic-30-5-300x300.jpg" class="card-img-top" alt="...">
+   <div class="position-absolute top-0 end-0 me-5 mt-5 d-flex  flex-column d-none heard">
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-regular fa-heart text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-left-right text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-magnifying-glass text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-cart-shopping text-black "></i></a>
+  </div>
+  <div class="card-body me-3">
+     <p class="card-text h6">Apple MacBook Air With Apple M1 Chip,13.3 inch,8GB RAM,...</p>
+    <h4>$572</h4>
+  </div>
+</div> </div>
+<div> <div class="card col-3 rounded-0 position-relative card-1 width" >
+  <img src="image/automotive-11-300x300.jpg" class="card-img-top" alt="...">
+    <p class="position-absolute text-white fw-bold start-0 top-0 ms-3 mt-3 rounded-1 red" >-8%</p>
+  <div class="position-absolute top-0 end-0 me-5 mt-5 d-flex  flex-column d-none heard">
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-regular fa-heart text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-left-right text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-magnifying-glass text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-cart-shopping text-black "></i></a>
+  </div>
+  <div class="card-body me-3">
+    <p class="card-text h6">TOOLS 34 Low Profile Hydraulic Trolley</p>
+    <h4>$767 <del class="text-secondary fs-5">$837</del></h4>
+  </div>
+</div> </div>
+  <div> <div class="card col-3 rounded-0 position-relative card-1 width">
+  <img src="image/fashion-6-300x300.jpg" class="card-img-top" alt="...">
+   <div class="position-absolute top-0 end-0 me-5 mt-5 d-flex  flex-column d-none heard">
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-regular fa-heart text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-left-right text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-magnifying-glass text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-cart-shopping text-black "></i></a>
+  </div>
+  <div class="card-body me-3">
+   <p class="card-text h6">Lv Women Leather Accent Denim Mini Skirt</p>
+    <h4>$1,390</h4>
+  </div>
+</div> </div>
+<div><div class="card col-3 rounded-0 position-relative card-1 width ">
+  <img src="image/electronic-1-300x300.jpg" class="card-img-top" alt="...">
+  <div class="position-absolute top-0 end-0 me-5 mt-5 d-flex  flex-column d-none heard">
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-regular fa-heart text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-left-right text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-magnifying-glass text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-cart-shopping text-black "></i></a>
+  </div>
+  <div class="card-body me-3">
+     <p class="card-text h6">MacBook Air With M3 Chip, 16GB Unified Memory, TTB SSD...</p>
+    <h4>$1,399</h4>
+  </div>
+</div></div>
+  <div><div class="card col-3 rounded-0 position-relative card-1 width">
+  <img src="image/automotive-13-700x700.jpg" class="card-img-top" alt="...">
+    <p class="position-absolute text-white fw-bold start-0 top-0 ms-3 mt-3 rounded-1 red" >-17%</p>
+   <div class="position-absolute top-0 end-0 me-5 mt-5 d-flex  flex-column d-none heard">
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2  "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-regular fa-heart text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-left-right text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-magnifying-glass text-black "></i></a>
+    <a class="bg-secondary-subtle text-decoration-none p-2 rounded-2 mt-1 "data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left" href=""><i class="fa-solid fa-cart-shopping text-black "></i></a>
+  </div>
+  <div class="card-body me-3">
+    <p class="card-text h6">High-Performance Carbon Fwiber Wheels</p>
+    <h4>$499 <del class="text-secondary fs-5">$599</del></h4>
+  </div>
+</div> </div>
+</div>
+
+<div class="owl-carousel slider-3 mt-5">
+ <div><div class="card  border-0 card-3">
+  <div class="overflow-hidden">
+    <img src="image/blog-1.jpg" class="card-img-top rounded-3" alt="...">
+  </div>
+    <div class="card-body">
+     <h6 class="card-title hamed ">AUTOPARTS <span class="text-secondary"> - BY </span>Myoui Mina</h6>
+      <h3 class="card-text text-body-black ">10 Things to Learn From Apple's Marketing Strategy</h3>
+      <p class="card-text text-body-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit United States.</p>
+      <button type="button" class="btn btn-outline-dark ">READ MORE</button>
+    </div>
+  </div></div>
+  <div><div class="card  border-0 card-3">
+    <div class="overflow-hidden">
+    <img src="image/blog-2.jpg" class="card-img-top rounded-3" alt="...">
+    </div>
+    <div class="card-body">
+      <h6 class="card-title hamed ">AUTOPARTS <span class="text-secondary"> - BY </span>Myoui Mina</h6>
+      <h3 class="card-text text-body-black ">10 Things to Learn From Apple's Marketing Strategy</h3>
+      <p class="card-text text-body-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit United States.</p>
+      <button type="button" class="btn btn-outline-dark ">READ MORE</button>
+    </div>
+  </div></div>
+  <div><div class="card  border-0 card-3">
+    <div class="overflow-hidden">
+    <img src="image/blog-3.jpg" class="card-img-top rounded-3" alt="...">
+    </div>
+    <div class="card-body">
+     <h6 class="card-title hamed ">AUTOPARTS <span class="text-secondary"> - BY </span>Myoui Mina</h6>
+      <h3 class="card-text text-body-black ">10 Things to Learn From Apple's Marketing Strategy</h3>
+      <p class="card-text text-body-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit United States.</p>
+      <button type="button" class="btn btn-outline-dark ">READ MORE</button>
+    </div>
+  </div></div>
+  <div><div class="card  border-0 card-3">
+    <div class="overflow-hidden">
+    <img src="image/blog-4.jpg" class="card-img-top rounded-3" alt="...">
+    </div>
+    <div class="card-body">
+      <h6 class="card-title hamed ">AUTOPARTS <span class="text-secondary"> - BY </span>Myoui Mina</h6>
+      <h3 class="card-text text-body-black ">10 Things to Learn From Apple's Marketing Strategy</h3>
+      <p class="card-text text-body-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit United States.</p>
+      <button type="button" class="btn btn-outline-dark ">READ MORE</button>
+    </div>
+  </div></div>
+  <div><div class="card  border-0 card-3">
+    <div class="overflow-hidden">
+    <img src="image/blog-5-1.jpg" class="card-img-top rounded-3" alt="...">
+    </div>
+    <div class="card-body">
+      <h6 class="card-title hamed ">AUTOPARTS <span class="text-secondary"> - BY </span>Myoui Mina</h6>
+      <h3 class="card-text text-body-black ">10 Things to Learn From Apple's Marketing Strategy</h3>
+      <p class="card-text text-body-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit United States.</p>
+      <button type="button" class="btn btn-outline-dark ">READ MORE</button>
+    </div>
+  </div></div>
+  <div><div class="card  border-0 card-3">
+    <div class="overflow-hidden">
+    <img src="image/blog-6.jpg" class="card-img-top rounded-3  " alt="...">
+    </div>
+    <div class="card-body">
+      <h6 class="card-title hamed ">AUTOPARTS <span class="text-secondary"> - BY </span>Myoui Mina</h6>
+      <h3 class="card-text text-body-black ">10 Things to Learn From Apple's Marketing Strategy</h3>
+      <p class="card-text text-body-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit United States.</p>
+      <button type="button" class="btn btn-outline-dark ">READ MORE</button>
+    </div>
+  </div></div>
+</div>
+<a href="" class="scure-black rounded-2 bg-black position-fixed bottom-0 end-0 me-5 d-none"  id="topButton" ><i class="fa-solid fa-arrow-up text-light px-2 py-1"></i></a>
+</div>
+<div class="mt-5 bg-secondary-subtle py-3  ">
+  <div class="mt-5">
+  <h2 class=" d-flex justify-content-center">Looking For Something else ?</h2>
+  </div>
+<div class="search-form-container mt-3">
+    <input type="text" class="search-input" placeholder="Search for products...">
+    <button class="search-button button bg-black text-white">
+      <i class="fas fa-search"></i>
+    </button>
+  </div>
+  
+  <div class="mt-5  ">
+    <div class="text-black d-flex justify-content-center ">
+      <span class="tag hamed me-3 pe-3 border-end border-1 border-black">smartphone</span>
+      <span class="tag hamed me-3 pe-3 border-end border-1 border-black">tablet</span>
+      <span class="tag hamed me-3 pe-3 border-end border-1 border-black">controller</span>
+      <span class="tag hamed me-3 pe-3 border-end border-1 border-black">furniture</span>
+      <span class="tag hamed me-3 pe-3 border-end border-1 border-black">laptop</span>
+      <span class="tag hamed me-3 pe-3 ">playstation</span>
+    </div>
+    <div class="mt-4 text-black d-flex justify-content-center  pb-5">
+      <span class="tag hamed me-3 pe-3 border-end border-1 border-black ms-5 ps-5">womens fashion</span>
+      <span class="tag hamed me-3 pe-3 border-end border-1 border-black">home & decor</span>
+      <span class="tag hamed me-3 pe-3 ">camera</span>
+    </div>
+  </div>
+</div>
+<footer class="bg-dark text-light pt-5 pb-4">
+    <div class="container-fluid">
+      <div class="row ms-5 me-5">
+       <div class="col-md-3 col-sm-6">
+            <a class="navbar-brand" href="#">
+        <img src="image/logo.png"  width="160" height="60">
+    </a>
+    <div class=" mt-3 ">
+    <a class="card-text color text-decoration-none "><i class="fa-solid fa-location-dot "></i></a>
+    <a class="color text-decoration-none">  29 SE 2nd Ave, Miami <br ><span class="ms-4"> Florida 33131,United States </span></a></div>
+   <div class=" mt-2 mb-3">
+    <a class="card-text color text-decoration-none"><i class="fa-solid fa-envelope "></i></a>
+    <a class="color text-decoration-none">info@example.com</a></div>
+    <h4 class="hamed">(+92) 3942 7879</h4>
+        </div>
+
+    <div class="col-md-2 col-sm-6 ">
+      <h6>SHOPPING</h6>
+      <UL class="list-unstyled mt-4 nora">
+        <li class="mt-2">Wishlist </li>
+        <li class="mt-2">Shop by Brand </li>
+        <li class="mt-2">Offers </li>
+        <li class="mt-2">Track order </li>
+        <li class="mt-2">Size Guide </li>
+      </UL>
+        </div>
+
+    <div class="col-md-2 col-sm-6">
+      <h6>INFOMATION</h6>
+      <UL class="list-unstyled mt-4 nora">
+        <li class="mt-2">Track Order </li>
+        <li class="mt-2">Shipping & Returns </li>
+        <li class="mt-2">About Us </li>
+        <li class="mt-2">Help </li>
+        <li class="mt-2">Gift cards </li>
+      </UL>
+        </div>
+
+    <div class="col-md-2 col-sm-6">
+      <h6>ACCOUNT</h6>
+      <UL class="list-unstyled mt-4 nora">
+        <li class="mt-2">Cart </li>
+        <li class="mt-2">My account </li>
+        <li class="mt-2">My Orders </li>
+        <li class="mt-2">Wishlist </li>
+        <li class="mt-2">Affiliate Program </li>
+      </UL>
+        </div>
+
+    <div class="col-md-3 col-sm-12 ">
+      <h5 class="mb-4">Let,s Keep in touch</h5>
+   
+    
+    <div class="position-relative ">
+      <a class=" mt-2 hover text-decoration-none position-absolute top-10 end-0 text-light"  ><i class="fa-solid fa-arrow-right pe-5"></i></a>
+  <input   class="form-control email " type="email" placeholder="enter your email address" aria-label="default input example">
+  </div>
+  
+  <p class="text-light fs-4 mt-3 hover"><i class="fa-brands fa-facebook-f me-2 "></i><i class="fa-brands fa-tiktok me-2"></i><i class="fa-brands fa-x-twitter me-2"></i><i class="fa-brands fa-youtube me-2"></i><i class="fa-brands fa-instagram me-2"></i></p>
+        </div>
+</div>
+<div class="row m-5  border border-secondary">
+  <div class="row ms-5 me-5">
+  <div class="col-4  align-items-center mt-4 mb-4 ">
+    <div >
+    <a class="text-decoration-none" >
+    <i class="fa-solid fa-phone  d-inline-block align-text-top fs-3 text-light"></i>
+    </a>
+    <a class="navbar-brand fw-bold ms-3 " >Didn't find what you were looking for?</a>
+  </div>
+   <a class=" text-decoration-underline ms-5 ps-3 text-light" href="file:///C:/Users/Dr.Hamed%20Salama/Desktop/nora-web-design-tasks/final%20projuct/Pages.html">Contact Us</a>
+  </div>
+  <div class="col-4  align-items-center mt-4 mb-4">
+    <div >
+    <a class="text-decoration-none" >
+    <i class="fa-regular fa-face-smile  d-inline-block align-text-top fs-3 text-light"></i>
+    </a>
+    <a class="navbar-brand fw-bold  ms-3" >How can we help you today?</a>
+  </div>
+   <a class=" text-decoration-underline ms-5 ps-3  text-light">Help Ce</a>
+  </div>
+ <div class="col-4  align-items-center mt-4 mb-4 ">
+    <div >
+    <a class="text-decoration-none" >
+<i class="fa-regular fa-life-ring d-inline-block align-text-top fs-3 text-light"></i>
+    </a>
+    <a class="navbar-brand fw-bold ms-3 " >We’d love to hear what you think!</a>
+  </div>
+   <a class=" text-decoration-underline ms-5 ps-3 text-light">Give Feedback</a>
+  </div>
+</div>
+        </div>
+        <div class="row d-flex justify-content-between align-items-center fs-6 ms-5 me-5">
+          <div class="col-3">
+          <p class="color">Copyright © Merto. All Rights Reserved</p>
+          </div>
+          <div class="col-5">
+          <a><img src="image/payment-icons-1.png"class="w-100"   alt=""></a>
+          </div>
+
+        </div>
+    </div>
+</footer>
+    <div class="overlay"></div>
+    
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"
     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
     integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
   <script src="java/ja.js"></script>
+  
 </body>
 
 </html>
